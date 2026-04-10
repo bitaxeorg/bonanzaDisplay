@@ -4821,6 +4821,159 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bonanzaDisplay:XC6206"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XC6206"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 1.016 -20.066 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5014/XC6206P362PR.pdf"
+				(at 2.54 -22.352 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "low-dropout-regulator ldo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TO*220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XC6206_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "XC6206_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(circle
 		(center 139.7 93.345)
@@ -4870,7 +5023,7 @@
 	)
 	(text "Raspberry Pico RP2354A"
 		(exclude_from_sim no)
-		(at 180.34 38.354 0)
+		(at 179.324 49.53 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4880,6 +5033,19 @@
 			(justify left bottom)
 		)
 		(uuid "583c1d4c-e9e7-43c3-a8a9-4f53f84b782f")
+	)
+	(text "3.1\" SSD1322 OLED"
+		(exclude_from_sim no)
+		(at 311.404 129.794 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac4db5bf-65b4-4cd3-bb82-96cf5e9b7ede")
 	)
 	(text "RESET"
 		(exclude_from_sim no)
@@ -4928,10 +5094,22 @@
 		(uuid "1c1785e7-8a12-40da-8669-c1c9fa0b0d98")
 	)
 	(junction
+		(at 304.8 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27bca93b-4d84-4789-aea9-adf419e41035")
+	)
+	(junction
 		(at 208.28 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "290bf0c4-a5bd-4121-8937-4d124839bc09")
+	)
+	(junction
+		(at 223.52 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "340bb1cd-2252-4d05-bd36-7716ba8eb512")
 	)
 	(junction
 		(at 92.71 54.61)
@@ -4986,6 +5164,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61a64a5e-0f5e-49aa-9478-03483f578a95")
+	)
+	(junction
+		(at 223.52 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "682513b5-5e25-40df-9744-2f1ab50607c1")
 	)
 	(junction
 		(at 307.34 86.36)
@@ -5131,19 +5315,13 @@
 		(color 0 0 0 0)
 		(uuid "f58aacd4-9e05-4517-ba49-1e7b6c1cd428")
 	)
-	(junction
-		(at 304.8 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd7f87db-b0a2-4605-84e0-dc126902845f")
+	(no_connect
+		(at 331.47 187.96)
+		(uuid "00178570-e426-4364-89d7-40961594bc25")
 	)
 	(no_connect
 		(at 308.61 99.06)
 		(uuid "20903d18-953c-46fc-bcad-83294bf7f589")
-	)
-	(no_connect
-		(at 331.47 187.96)
-		(uuid "667bbc77-5cf6-4cb7-a6a5-172492e5cbed")
 	)
 	(no_connect
 		(at 308.61 71.12)
@@ -5244,6 +5422,16 @@
 			(type default)
 		)
 		(uuid "0668c147-46fc-436c-9d47-eec7107e153e")
+	)
+	(wire
+		(pts
+			(xy 320.04 200.66) (xy 331.47 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a37f41-dbd8-4184-9fd5-72816d26bbc8")
 	)
 	(wire
 		(pts
@@ -5557,6 +5745,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 236.22) (xy 207.01 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327b462b-757d-443a-8791-f4dbeb40bf48")
+	)
+	(wire
+		(pts
 			(xy 71.12 88.9) (xy 57.15 88.9)
 		)
 		(stroke
@@ -5607,6 +5805,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 219.71) (xy 223.52 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35fcbde1-6d12-4564-85e4-409ce79466a1")
+	)
+	(wire
+		(pts
 			(xy 163.83 66.04) (xy 163.83 69.85)
 		)
 		(stroke
@@ -5644,6 +5852,16 @@
 			(type default)
 		)
 		(uuid "3aec4f3d-6290-4829-b62e-89541e69cc91")
+	)
+	(wire
+		(pts
+			(xy 207.01 247.65) (xy 223.52 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afb422e-629f-45d3-be25-beec4f221858")
 	)
 	(wire
 		(pts
@@ -5754,6 +5972,16 @@
 			(type default)
 		)
 		(uuid "4751d673-9e39-4ccc-8591-c05243d427a8")
+	)
+	(wire
+		(pts
+			(xy 223.52 247.65) (xy 238.76 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47652a65-9114-4dea-a1bd-e29a403ef42e")
 	)
 	(wire
 		(pts
@@ -6067,6 +6295,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 236.22) (xy 207.01 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71bf5902-c949-4901-8546-1f2be9df8a56")
+	)
+	(wire
+		(pts
 			(xy 304.8 213.36) (xy 293.37 213.36)
 		)
 		(stroke
@@ -6127,6 +6365,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 212.09) (xy 207.01 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3c3c53-9da6-42d9-a2d9-d89d48ff4837")
+	)
+	(wire
+		(pts
 			(xy 163.83 58.42) (xy 163.83 60.96)
 		)
 		(stroke
@@ -6164,6 +6412,16 @@
 			(type default)
 		)
 		(uuid "800e82b5-12ee-487f-af08-173443929a2e")
+	)
+	(wire
+		(pts
+			(xy 231.14 236.22) (xy 238.76 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b524b3-7920-4532-b34f-76cb027f6db8")
 	)
 	(wire
 		(pts
@@ -6277,6 +6535,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 243.84) (xy 207.01 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b869a08-47e0-4bd1-9a92-8a565b563e34")
+	)
+	(wire
+		(pts
 			(xy 307.34 81.28) (xy 308.61 81.28)
 		)
 		(stroke
@@ -6344,6 +6612,16 @@
 			(type default)
 		)
 		(uuid "8f6743f9-2094-4425-8a5c-f01548379d9f")
+	)
+	(wire
+		(pts
+			(xy 231.14 212.09) (xy 238.76 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f743f09-1cd6-42aa-8d07-096674465005")
 	)
 	(wire
 		(pts
@@ -6444,6 +6722,16 @@
 			(type default)
 		)
 		(uuid "9724939d-8e1b-4f6b-b132-6d9026ea296f")
+	)
+	(wire
+		(pts
+			(xy 238.76 223.52) (xy 238.76 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "974a505d-08da-49ec-b27c-da2a4faa2d7a")
 	)
 	(wire
 		(pts
@@ -6587,6 +6875,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 223.52) (xy 223.52 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf0325c-a31a-4b02-8ece-7df512c7fa03")
+	)
+	(wire
+		(pts
 			(xy 71.12 81.28) (xy 57.15 81.28)
 		)
 		(stroke
@@ -6677,6 +6975,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 219.71) (xy 207.01 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b768d437-ae7b-49ca-a589-0ad32a7a6b9b")
+	)
+	(wire
+		(pts
 			(xy 320.04 167.64) (xy 331.47 167.64)
 		)
 		(stroke
@@ -6684,16 +6992,6 @@
 			(type default)
 		)
 		(uuid "b8345331-15a0-478b-8ee8-de5a4a6d82a5")
-	)
-	(wire
-		(pts
-			(xy 304.8 200.66) (xy 331.47 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba15930c-d74c-4a82-ab79-435ca541d69a")
 	)
 	(wire
 		(pts
@@ -6777,6 +7075,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 200.66) (xy 314.96 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea86a0c-0218-4fac-8ed8-d04e066ed069")
+	)
+	(wire
+		(pts
 			(xy 326.39 208.28) (xy 331.47 208.28)
 		)
 		(stroke
@@ -6814,6 +7122,36 @@
 			(type default)
 		)
 		(uuid "c28c6194-a2b4-42fb-8d8f-2cecd4fc41b0")
+	)
+	(wire
+		(pts
+			(xy 223.52 243.84) (xy 223.52 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2dc05ec-069a-4540-9233-bf49af45e839")
+	)
+	(wire
+		(pts
+			(xy 223.52 223.52) (xy 238.76 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c363a51e-b9fe-44ef-a462-a57aa3d6ef92")
+	)
+	(wire
+		(pts
+			(xy 238.76 247.65) (xy 238.76 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d53b79-0fe0-4a07-babd-8a91a186de32")
 	)
 	(wire
 		(pts
@@ -7087,6 +7425,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 212.09) (xy 207.01 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd29ac5d-9bdd-4abd-84a9-97bced181465")
+	)
+	(wire
+		(pts
+			(xy 238.76 212.09) (xy 238.76 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12f3031-f8c3-4218-8530-0a4eded9b6f3")
+	)
+	(wire
+		(pts
 			(xy 71.12 86.36) (xy 57.15 86.36)
 		)
 		(stroke
@@ -7224,6 +7582,16 @@
 			(type default)
 		)
 		(uuid "f0fd703c-1114-4d91-84f0-2bdacf804c77")
+	)
+	(wire
+		(pts
+			(xy 238.76 236.22) (xy 238.76 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f126e9f6-0aff-400f-ad8d-41572133bdd9")
 	)
 	(wire
 		(pts
@@ -7475,7 +7843,7 @@
 		)
 		(uuid "27db7035-ae8b-4578-9f9b-5c221aff1d91")
 	)
-	(label "3V3"
+	(label "2V8"
 		(at 320.04 195.58 0)
 		(effects
 			(font
@@ -7574,6 +7942,16 @@
 			(justify left bottom)
 		)
 		(uuid "4995cd64-6f2e-4967-9812-15634fb26544")
+	)
+	(label "3V0"
+		(at 238.76 212.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e858982-bbe3-43a5-b65e-98a261456a4b")
 	)
 	(label "1V1"
 		(at 132.08 90.17 0)
@@ -7795,6 +8173,16 @@
 		)
 		(uuid "8ac1fa8d-891d-4fce-a41a-9321716fa58d")
 	)
+	(label "2V8"
+		(at 238.76 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c1b7719-df0e-4c4a-a8a8-b093bc6b8597")
+	)
 	(label "GND"
 		(at 168.91 69.85 180)
 		(effects
@@ -7814,6 +8202,16 @@
 			(justify left bottom)
 		)
 		(uuid "91af6c22-6f7d-4742-99d6-964027859159")
+	)
+	(label "3V3"
+		(at 207.01 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92a6f3ff-d60b-45fa-9944-46ee6c5aa0c1")
 	)
 	(label "RES"
 		(at 245.11 121.92 180)
@@ -7965,8 +8363,8 @@
 		)
 		(uuid "c5f64035-38b2-4a14-a0e6-e35053028a69")
 	)
-	(label "3V3"
-		(at 320.04 200.66 0)
+	(label "3V0"
+		(at 298.45 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8015,7 +8413,7 @@
 		)
 		(uuid "dce40787-a1f8-4b59-8791-d07ffaf64df9")
 	)
-	(label "3V3"
+	(label "3V0"
 		(at 320.04 177.8 0)
 		(effects
 			(font
@@ -8074,6 +8472,16 @@
 			(justify right bottom)
 		)
 		(uuid "f4113f4f-6359-44e5-9192-f8d22ee7bd73")
+	)
+	(label "3V3"
+		(at 207.01 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f416bff0-ee6b-4566-ac83-a43283c53fdd")
 	)
 	(label "12V"
 		(at 49.53 34.29 0)
@@ -8364,6 +8772,246 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 317.5 200.66 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "146de691-49b0-4fd9-a7e1-11b293164034")
+		(property "Reference" "R39"
+			(at 313.944 202.184 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 320.802 202.184 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 317.5 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 317.5 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 317.5 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 317.5 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 317.5 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 317.5 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39035635-d346-4b2a-999f-119895e75f5d")
+		)
+		(pin "2"
+			(uuid "9146c757-9cc3-4fcd-9c47-0479ca403412")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bonanzaDisplay:XC6206")
+		(at 223.52 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18f6c980-8778-4fa6-b129-b071a239d26c")
+		(property "Reference" "U2"
+			(at 223.52 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC6206"
+			(at 223.52 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 224.536 232.156 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5014/XC6206P362PR.pdf"
+			(at 226.06 234.442 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "XC6206P302MR"
+			(at 223.52 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" "4518-XC6206P302MRCT-ND"
+			(at 223.52 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C347375"
+			(at 223.52 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0055e396-549b-4779-b066-c43228c3e3a3")
+		)
+		(pin "2"
+			(uuid "600e287f-6e1b-426f-bc58-40801a7e54e1")
+		)
+		(pin "1"
+			(uuid "b1ec22de-a128-4645-ba57-ccbbe8fd940b")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9758,6 +10406,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 238.76 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f0e5ec7-5329-4499-bbf7-4450f97d89a3")
+		(property "Reference" "C40"
+			(at 239.268 239.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 239.268 243.332 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 238.76 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 238.76 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 238.76 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 238.76 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 238.76 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 238.76 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3695449-5f21-4d08-aa40-082755f1176b")
+		)
+		(pin "2"
+			(uuid "5d622ed8-ac0d-4bf3-b253-f1a3c1ab8ff4")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Filled")
 		(at 309.88 223.52 0)
 		(mirror x)
@@ -10454,7 +11227,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "51"
 			(at 317.754 226.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11230,7 +12003,7 @@
 				)
 			)
 		)
-		(property "Value" "910k"
+		(property "Value" "590k"
 			(at 327.66 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11327,6 +12100,131 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 238.76 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d6fd2da-d0a4-4158-892b-481367ed503a")
+		(property "Reference" "C38"
+			(at 239.268 215.138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 239.268 219.202 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 238.76 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 238.76 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 238.76 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 238.76 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 238.76 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 238.76 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fe87b51-12d0-4152-b338-a5a42875648f")
+		)
+		(pin "2"
+			(uuid "70cea855-73d6-4627-b0df-4a8533fd75e2")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -11952,6 +12850,122 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bonanzaDisplay:XC6206")
+		(at 223.52 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a83a6288-34de-41b8-bbac-820519cbbb68")
+		(property "Reference" "U3"
+			(at 223.52 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC6206"
+			(at 223.52 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 224.536 256.286 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5014/XC6206P362PR.pdf"
+			(at 226.06 258.572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "XC6206P282MR"
+			(at 223.52 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" "4518-XC6206P282MRCT-ND"
+			(at 223.52 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C347374"
+			(at 223.52 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e40c52a6-12f4-48bd-8f16-76bcaa21c644")
+		)
+		(pin "2"
+			(uuid "c191d659-6234-4d33-9dbb-55bc14a3080b")
+		)
+		(pin "1"
+			(uuid "2bc6cfca-38be-4466-abb5-74ed269337c9")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13039,6 +14053,131 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 207.01 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf33882a-0838-48b6-bfb7-8e1eda475564")
+		(property "Reference" "C39"
+			(at 207.518 239.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 207.518 243.332 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 207.01 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 207.01 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 207.01 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 207.01 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 207.01 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 207.01 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25b77938-9171-48d1-b351-f8167f8157b8")
+		)
+		(pin "2"
+			(uuid "cb29fc71-8609-488b-8b22-e120e40de9ca")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 261.62 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -13431,6 +14570,131 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 207.01 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e89f9808-3c11-47e1-9b6e-0752165766b0")
+		(property "Reference" "C37"
+			(at 207.518 215.138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 207.518 219.202 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 207.01 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 207.01 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 207.01 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 207.01 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 207.01 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 207.01 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1735e177-1f6d-4e1e-8c2a-6f4e7ac58ac1")
+		)
+		(pin "2"
+			(uuid "69b933ae-1f90-449e-a3b5-47998c1d5cb0")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "C37")
 					(unit 1)
 				)
 			)
