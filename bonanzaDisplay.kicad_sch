@@ -135,6 +135,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
 				(offset 1.016)
@@ -515,232 +702,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_MountingPin"
-				(at 1.27 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_MountingPin_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1587,6 +1548,225 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4294,22 +4474,10 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J2"
-				(at -10.16 19.05 0)
+			(property "Reference" "J6"
+				(at 3.81 21.844 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 11.43 21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4317,8 +4485,19 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "bitcrane:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-				(at 2.032 24.892 0)
+			(property "Value" "USB_C_Receptacle_USB2.0"
+				(at 9.652 19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "bitaxe:USB_C_Receptacle_GCT_USB4105-xx-A"
+				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4329,7 +4508,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-				(at 2.032 24.892 0)
+				(at 2.54 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4339,7 +4518,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "USB 2.0-only Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4350,7 +4529,7 @@
 					)
 				)
 			)
-			(property "DK" ""
+			(property "DK" "2073-USB4105-GF-ACT-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4361,7 +4540,7 @@
 					)
 				)
 			)
-			(property "PARTNO" ""
+			(property "PARTNO" "USB4105-GF-A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4372,8 +4551,8 @@
 					)
 				)
 			)
-			(property "LCSC" "C2988369"
-				(at -0.254 27.432 0)
+			(property "Height" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4409,6 +4588,105 @@
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
 					(stroke
 						(width 0)
 						(type default)
@@ -4630,7 +4908,7 @@
 							)
 						)
 					)
-					(number "A1B12"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4638,7 +4916,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
@@ -4648,7 +4926,7 @@
 							)
 						)
 					)
-					(number "A4B9"
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4739,7 +5017,7 @@
 							)
 						)
 					)
-					(number "B1A12"
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4747,9 +5025,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 15.24 12.7 180)
+				(pin passive line
+					(at 15.24 15.24 180)
 					(length 5.08)
+					(hide yes)
 					(name "VBUS"
 						(effects
 							(font
@@ -4757,7 +5036,7 @@
 							)
 						)
 					)
-					(number "B4A9"
+					(number "B4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5283,7 +5562,7 @@
 	)
 	(text "JST Debug Connector"
 		(exclude_from_sim no)
-		(at 137.16 175.26 0)
+		(at 141.224 174.752 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5415,6 +5694,12 @@
 		(uuid "36a15c4b-1847-443b-b3f5-82df6084c8ca")
 	)
 	(junction
+		(at 63.5 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36d5425c-4f95-4dce-884a-a7e5d85ae4c5")
+	)
+	(junction
 		(at 74.93 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5499,6 +5784,12 @@
 		(uuid "777c0584-54c1-4e2e-a0ad-a3106ffdcb96")
 	)
 	(junction
+		(at 63.5 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d5a92ba-5b9b-4c45-b0b9-4adf04009395")
+	)
+	(junction
 		(at 238.76 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5569,6 +5860,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9d65e64-169e-44b0-b995-5653f606eebf")
+	)
+	(junction
+		(at 63.5 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdd3fa85-fd78-48d1-aa89-391816293e2d")
 	)
 	(junction
 		(at 246.38 58.42)
@@ -5653,10 +5950,6 @@
 	(no_connect
 		(at 233.68 162.56)
 		(uuid "827b876a-0e1b-4bfa-a0bc-a7ddd264164e")
-	)
-	(no_connect
-		(at 308.61 71.12)
-		(uuid "8a9b4246-894d-4421-b610-f44b2741cff4")
 	)
 	(no_connect
 		(at 46.99 139.7)
@@ -5878,6 +6171,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 241.3) (xy 63.5 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19aee732-b6a3-4f97-a1e7-efa9614ec283")
+	)
+	(wire
+		(pts
 			(xy 123.19 82.55) (xy 148.59 82.55)
 		)
 		(stroke
@@ -5908,7 +6211,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 181.61) (xy 138.43 181.61)
+			(xy 135.89 181.61) (xy 144.78 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6418,6 +6721,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 233.68) (xy 63.5 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5351ee63-8d0e-4520-9ccc-7e10ce22a0b8")
+	)
+	(wire
+		(pts
 			(xy 293.37 200.66) (xy 293.37 203.2)
 		)
 		(stroke
@@ -6538,6 +6851,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 256.54) (xy 76.2 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7d0a46-8df1-49d4-bc0b-8bd0bb2ea2f0")
+	)
+	(wire
+		(pts
 			(xy 299.72 142.24) (xy 331.47 142.24)
 		)
 		(stroke
@@ -6585,6 +6908,16 @@
 			(type default)
 		)
 		(uuid "65a34148-2888-4e62-a71d-3ed874144e54")
+	)
+	(wire
+		(pts
+			(xy 63.5 226.06) (xy 63.5 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f8261d-5a8c-4a83-926c-050f971a48c0")
 	)
 	(wire
 		(pts
@@ -6808,6 +7141,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 248.92) (xy 71.12 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa86b77-c017-4ba7-9eb4-816524487f98")
+	)
+	(wire
+		(pts
 			(xy 71.12 83.82) (xy 57.15 83.82)
 		)
 		(stroke
@@ -6815,6 +7158,16 @@
 			(type default)
 		)
 		(uuid "800e82b5-12ee-487f-af08-173443929a2e")
+	)
+	(wire
+		(pts
+			(xy 63.5 233.68) (xy 71.12 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "806d33da-fffa-42fc-bbc1-85a39a96c868")
 	)
 	(wire
 		(pts
@@ -7108,6 +7461,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 248.92) (xy 63.5 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d6e58b-8907-4608-814c-b33a5816d19f")
+	)
+	(wire
+		(pts
 			(xy 125.73 109.22) (xy 123.19 109.22)
 		)
 		(stroke
@@ -7155,16 +7518,6 @@
 			(type default)
 		)
 		(uuid "97a54225-3749-4c94-abd8-d37449878eb5")
-	)
-	(wire
-		(pts
-			(xy 130.81 189.23) (xy 130.81 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "984a824c-918d-4833-b605-016955661e74")
 	)
 	(wire
 		(pts
@@ -7228,6 +7581,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 226.06) (xy 63.5 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3eb90d2-5798-44e1-829e-744bb33d6a4a")
+	)
+	(wire
+		(pts
 			(xy 148.59 232.41) (xy 140.97 232.41)
 		)
 		(stroke
@@ -7275,6 +7638,16 @@
 			(type default)
 		)
 		(uuid "a65cbf97-bf99-4c6a-8ec8-f42016b67e45")
+	)
+	(wire
+		(pts
+			(xy 63.5 241.3) (xy 71.12 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a687e8a2-400d-4cee-bbea-43bccd9469ad")
 	)
 	(wire
 		(pts
@@ -7715,16 +8088,6 @@
 			(type default)
 		)
 		(uuid "cec37c84-daf2-4bfc-9177-9971a7f1fd66")
-	)
-	(wire
-		(pts
-			(xy 138.43 190.5) (xy 130.81 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf49ae34-6c05-44c0-b16b-124b4b0565cb")
 	)
 	(wire
 		(pts
@@ -8208,16 +8571,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 181.61) (xy 138.43 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f85e353e-eebf-4077-a47f-a4062e9538f3")
-	)
-	(wire
-		(pts
 			(xy 254 58.42) (xy 261.62 58.42)
 		)
 		(stroke
@@ -8357,12 +8710,12 @@
 		(uuid "1e2bbe3c-c521-4dd3-a4e4-682dfcfe8ca4")
 	)
 	(label "GND"
-		(at 133.35 190.5 0)
+		(at 144.78 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "223ff17b-7797-44f5-87cf-b7b04dfa6699")
 	)
@@ -8465,6 +8818,16 @@
 			(justify right bottom)
 		)
 		(uuid "3fbdcc80-6b38-46d5-bf2d-0bf363feffb9")
+	)
+	(label "GND"
+		(at 72.39 256.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40627483-3ade-4580-b186-1f71691f2b93")
 	)
 	(label "GND"
 		(at 326.39 205.74 0)
@@ -9226,6 +9589,30 @@
 		)
 		(uuid "fd8994e4-d6e6-4f09-9ba0-9dc66cf93247")
 	)
+	(global_label "GND"
+		(shape input)
+		(at 76.2 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13cb2ab1-0146-4a2a-a90f-19146ddad2a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.0557 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "bonanzaDisplay:Crystal_GND24")
 		(at 140.97 152.4 270)
@@ -9945,6 +10332,115 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 44.45 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1acd3c66-b286-434d-98c9-a59de3d74ac6")
+		(property "Reference" "FID2"
+			(at 46.99 234.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 46.99 237.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:Fiducial_1mm_Mask2mm"
+			(at 44.45 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 44.45 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 44.45 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 44.45 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 44.45 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -11007,7 +11503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitcrane:SW-SMD_L3.9-W3.0-P4.45"
+		(property "Footprint" "bonanzaDisplay:SW-SMD_L3.9-W3.0-P4.45"
 			(at 130.81 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11497,7 +11993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitcrane:SW-SMD_L3.9-W3.0-P4.45"
+		(property "Footprint" "bonanzaDisplay:SW-SMD_L3.9-W3.0-P4.45"
 			(at 130.81 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11612,7 +12108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_60QFN_minimal:L_pol_2016"
+		(property "Footprint" "bonanzaDisplay:IND-SMD-L2.0-W1.6-MLP2016H3R3MT0S1"
 			(at 140.97 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11657,6 +12153,17 @@
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C383379"
 			(at 140.97 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13186,6 +13693,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 73.66 226.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8104cbef-cf70-4769-be1c-a7e30003c8d0")
+		(property "Reference" "H1"
+			(at 77.47 224.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 77.47 227.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 73.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 73.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 73.66 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 73.66 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39349441-7128-4e01-aab1-15c9f31fbec6")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 172.72 63.5 0)
 		(unit 1)
@@ -13436,6 +14055,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 73.66 233.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c5f38d9-8b6c-48a9-962f-9aed47aa73d9")
+		(property "Reference" "H2"
+			(at 77.47 232.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 77.47 234.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 73.66 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 73.66 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 73.66 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 73.66 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6371fc4a-e510-4fd5-867e-707fff2f9ebc")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 284.48 205.74 0)
 		(unit 1)
@@ -13677,6 +14408,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 44.45 248.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ade90bf8-975c-426d-902c-1be87f05b2cd")
+		(property "Reference" "FID4"
+			(at 46.99 247.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 46.99 250.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:Fiducial_1mm_Mask2mm"
+			(at 44.45 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 44.45 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 44.45 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 44.45 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 44.45 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 160.02 87.63 0)
 		(unit 1)
@@ -13796,6 +14636,118 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 73.66 248.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1377f49-016f-4925-8f04-f8a2a78e7834")
+		(property "Reference" "H4"
+			(at 77.47 247.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 77.47 250.1899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 73.66 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 73.66 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 73.66 248.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 248.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 73.66 248.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9656329-5427-423e-a0aa-b48bf33aef2b")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -14035,7 +14987,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 130.81 181.61 0)
 		(mirror y)
 		(unit 1)
@@ -14045,31 +14997,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b95ab259-120b-462c-97a0-4aab3eab78a4")
 		(property "Reference" "J15"
-			(at 128.27 180.34 0)
+			(at 130.81 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BM03B-SRSS-TB"
-			(at 128.27 182.88 0)
+		(property "Value" "SWD"
+			(at 131.064 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 130.81 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14091,7 +15040,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER SMD 3POS 1MM"
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 130.81 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14102,7 +15051,7 @@
 				)
 			)
 		)
-		(property "MPN" "BM03B-SRSS-TB"
+		(property "MPN" ""
 			(at 130.81 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14113,7 +15062,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JST Sales America Inc."
+		(property "Manufacturer" ""
 			(at 130.81 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14132,9 +15081,6 @@
 		)
 		(pin "3"
 			(uuid "a12bb3a2-12ab-41c7-8b81-dfcf55068ebb")
-		)
-		(pin "MP"
-			(uuid "caef79a5-c7d4-46b2-a939-a5529a5eb102")
 		)
 		(instances
 			(project "bonanzaDisplay"
@@ -15012,6 +15958,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 44.45 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfd12513-0a51-4a35-81d4-8843fb06dbd7")
+		(property "Reference" "FID3"
+			(at 46.99 241.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 46.99 243.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:Fiducial_1mm_Mask2mm"
+			(at 44.45 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 44.45 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 44.45 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 44.45 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 44.45 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 261.62 63.5 0)
 		(unit 1)
@@ -15147,21 +16202,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d46aab16-871a-4275-a4a9-37427b506c01")
-		(property "Reference" "J2"
-			(at 334.01 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 312.42 62.23 0)
-			(hide yes)
+		(uuid "d1ceefd1-c872-4ee9-aff2-d9836a67e6e8")
+		(property "Reference" "J6"
+			(at 320.04 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15171,8 +16214,19 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bitaxeBonanza:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 321.818 58.928 0)
+		(property "Value" "USB_C_Receptacle_USB2.0"
+			(at 314.198 64.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:USB_C_Receptacle_GCT_USB4105-xx-A"
+			(at 320.04 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15183,7 +16237,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 321.818 58.928 0)
+			(at 321.31 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15193,7 +16247,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only Type-C Receptacle connector"
 			(at 323.85 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15204,7 +16258,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "2073-USB4105-GF-ACT-ND"
 			(at 323.85 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15215,7 +16269,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "USB4105-GF-A"
 			(at 323.85 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15226,8 +16280,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C2988369"
-			(at 324.104 56.388 0)
+		(property "Height" ""
+			(at 323.85 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15236,50 +16290,50 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "A1B12"
-			(uuid "576da79b-5996-4bc2-8b59-afca9f480582")
-		)
-		(pin "B1A12"
-			(uuid "763f8ccf-535b-4cc1-880e-a5c260541d51")
-		)
-		(pin "A4B9"
-			(uuid "25c44dbd-801f-41fe-a9ac-20159698cc1f")
-		)
-		(pin "A5"
-			(uuid "88caac33-ee85-4096-968e-9f36c7652433")
-		)
-		(pin "A6"
-			(uuid "8879732f-249d-4ea6-8e1a-8ca450f35f20")
-		)
-		(pin "A7"
-			(uuid "3b86e243-2c2f-4f59-93df-2e32325916e9")
-		)
-		(pin "A8"
-			(uuid "4b018680-a067-4011-bcbc-3b6b9dd8d9b5")
-		)
-		(pin "B4A9"
-			(uuid "8fb1f3cf-8669-4a94-8498-36de66466b5f")
-		)
-		(pin "B5"
-			(uuid "e997e5f1-189c-41e8-aafd-eb0d327db819")
-		)
-		(pin "B6"
-			(uuid "0ab3cea8-a947-4ba4-9d6c-5dbd56aa9a59")
 		)
 		(pin "B7"
-			(uuid "2b155640-300e-4a6c-a206-0f82e6e55a22")
+			(uuid "554cf7fe-efbf-4803-9b24-28485ceb04da")
+		)
+		(pin "B6"
+			(uuid "249d0ff9-7156-4060-b2c6-b2ea545fe8d1")
+		)
+		(pin "A1"
+			(uuid "49aa03ab-e13b-4e50-b917-11c9a5d3c8b8")
+		)
+		(pin "A6"
+			(uuid "a2214bc6-707c-4e6a-8bab-d07cd2586006")
+		)
+		(pin "A4"
+			(uuid "f34d1321-7e95-40c5-9dd3-a1713d670679")
+		)
+		(pin "A5"
+			(uuid "1536a0a4-b863-46b8-8a32-f757f56592b4")
 		)
 		(pin "B8"
-			(uuid "8b6b50cb-b2c7-4cd1-a8b0-66af1be873de")
+			(uuid "6067b178-7271-43ff-a7da-5765e4219102")
+		)
+		(pin "B1"
+			(uuid "edb4a57b-17df-47ab-aa10-15c5b2ce601c")
+		)
+		(pin "A8"
+			(uuid "779a3f17-4958-47c3-a5c0-f49fcbfcaef3")
 		)
 		(pin "S1"
-			(uuid "c7d24e3b-2d56-4ee8-a987-9565cbbd47c1")
+			(uuid "12bdc0e2-6a3a-4469-acdf-7fc5cf3e5f70")
+		)
+		(pin "A7"
+			(uuid "63b88820-9933-4bdf-a802-1d4ba5f36d9f")
+		)
+		(pin "B5"
+			(uuid "23d0a2b5-ee61-4609-b9d1-65868529e604")
+		)
+		(pin "B4"
+			(uuid "ad4f1cd1-a4e4-423a-b582-89a265f46a77")
 		)
 		(instances
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -15405,6 +16459,227 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 44.45 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df04f380-f9d8-424f-893f-d3b060a9d9fc")
+		(property "Reference" "FID1"
+			(at 46.99 228.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 46.99 231.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:Fiducial_1mm_Mask2mm"
+			(at 44.45 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 44.45 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 44.45 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 44.45 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 44.45 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 73.66 241.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0886e51-c4fa-4f0a-88e0-873e74a00784")
+		(property "Reference" "H3"
+			(at 77.47 240.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 77.47 242.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 73.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 73.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 73.66 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 73.66 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "966c43f1-c03b-46c4-9cb5-ee7b47b8aea3")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -15568,7 +16843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
 			(at 76.2 132.08 0)
 			(hide yes)
 			(show_name no)
