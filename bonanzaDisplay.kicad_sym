@@ -1942,7 +1942,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U1"
-			(at -25.781 -48.26 0)
+			(at -26.416 -48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1953,7 +1953,7 @@
 			)
 		)
 		(property "Value" "RP2354A"
-			(at 19.939 -48.514 0)
+			(at 19.558 -48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1964,7 +1964,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm"
-			(at -1.524 -67.564 0)
+			(at -0.254 -76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1975,7 +1975,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf"
-			(at -0.762 -70.866 0)
+			(at -0.254 -76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1986,7 +1986,7 @@
 			)
 		)
 		(property "Description" "A microcontroller by Raspberry Pi, dual CPU architecture (ARM Cortex-M33 / RISC-V Hazard3), 150MHz, 2MB flash, 520KB SRAM, 12 PIO state machines, VQFN-60"
-			(at 3.556 -64.516 0)
+			(at 0.254 -66.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1997,7 +1997,7 @@
 			)
 		)
 		(property private "KLC_S4.2_DVDD" "Not a standalone power converter; internal on-chip voltage regulator for digital core supply; DVDD is the digital core power supply, should be placed next to voltage regulator output."
-			(at 0 -61.722 0)
+			(at 0.254 -69.088 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2008,7 +2008,7 @@
 			)
 		)
 		(property private "KLC_S4.2_VREG_LX" "Should be placed next to DVDD."
-			(at 0.635 -59.436 0)
+			(at -0.254 -79.248 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

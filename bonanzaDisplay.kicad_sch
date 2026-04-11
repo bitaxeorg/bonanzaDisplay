@@ -5748,12 +5748,6 @@
 		(uuid "61a64a5e-0f5e-49aa-9478-03483f578a95")
 	)
 	(junction
-		(at 252.73 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "682513b5-5e25-40df-9744-2f1ab50607c1")
-	)
-	(junction
 		(at 307.34 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6391,7 +6385,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 106.68) (xy 233.68 106.68)
+			(xy 245.11 99.06) (xy 233.68 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7041,7 +7035,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 104.14) (xy 233.68 104.14)
+			(xy 245.11 101.6) (xy 233.68 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7078,16 +7072,6 @@
 			(type default)
 		)
 		(uuid "784a3a49-8fbb-4aa2-8796-45814203548c")
-	)
-	(wire
-		(pts
-			(xy 236.22 215.9) (xy 236.22 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a3c3c53-9da6-42d9-a2d9-d89d48ff4837")
 	)
 	(wire
 		(pts
@@ -7251,7 +7235,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 101.6) (xy 233.68 101.6)
+			(xy 245.11 104.14) (xy 233.68 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7281,7 +7265,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 93.98) (xy 233.68 93.98)
+			(xy 245.11 111.76) (xy 233.68 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7691,16 +7675,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 227.33) (xy 252.73 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf0325c-a31a-4b02-8ece-7df512c7fa03")
-	)
-	(wire
-		(pts
 			(xy 71.12 81.28) (xy 57.15 81.28)
 		)
 		(stroke
@@ -7721,7 +7695,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 99.06) (xy 233.68 99.06)
+			(xy 245.11 106.68) (xy 233.68 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7788,16 +7762,6 @@
 			(type default)
 		)
 		(uuid "b47a8423-b328-44bf-b07e-2667fc0f0d25")
-	)
-	(wire
-		(pts
-			(xy 236.22 223.52) (xy 236.22 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b768d437-ae7b-49ca-a589-0ad32a7a6b9b")
 	)
 	(wire
 		(pts
@@ -8031,7 +7995,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 124.46) (xy 233.68 124.46)
+			(xy 245.11 121.92) (xy 233.68 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8211,7 +8175,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 109.22) (xy 233.68 109.22)
+			(xy 245.11 96.52) (xy 233.68 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8341,7 +8305,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 96.52) (xy 233.68 96.52)
+			(xy 245.11 109.22) (xy 233.68 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8541,7 +8505,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 121.92) (xy 233.68 121.92)
+			(xy 245.11 124.46) (xy 233.68 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8551,7 +8515,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 111.76) (xy 233.68 111.76)
+			(xy 245.11 93.98) (xy 233.68 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8640,7 +8604,7 @@
 		(uuid "041d9fa0-7c47-4b80-b33c-5dae28a2dbad")
 	)
 	(label "D4"
-		(at 245.11 104.14 180)
+		(at 245.11 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8648,6 +8612,16 @@
 			(justify right bottom)
 		)
 		(uuid "07cae85c-5148-405f-bf2c-bc717078ea87")
+	)
+	(label "GND"
+		(at 256.54 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08dbfaf5-9ce7-411d-a816-0aa8d919a54c")
 	)
 	(label "12V"
 		(at 326.39 208.28 0)
@@ -8800,7 +8774,7 @@
 		(uuid "3921ffab-d5c3-4c85-88ff-4708488018e4")
 	)
 	(label "D3"
-		(at 245.11 101.6 180)
+		(at 245.11 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8810,7 +8784,7 @@
 		(uuid "3c7c9679-e814-4c98-aadf-9088e5c19a3c")
 	)
 	(label "D0"
-		(at 245.11 93.98 180)
+		(at 245.11 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8900,7 +8874,7 @@
 		(uuid "4ed3cade-f189-4ab6-9ee4-ca5e53f1483a")
 	)
 	(label "D1"
-		(at 245.11 96.52 180)
+		(at 245.11 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8970,7 +8944,7 @@
 		(uuid "5c01555e-bbd3-41e4-b0f0-5234735f5478")
 	)
 	(label "D7"
-		(at 245.11 111.76 180)
+		(at 245.11 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9200,7 +9174,7 @@
 		(uuid "92a6f3ff-d60b-45fa-9944-46ee6c5aa0c1")
 	)
 	(label "RES"
-		(at 245.11 121.92 180)
+		(at 245.11 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9210,7 +9184,7 @@
 		(uuid "9b0c8315-c938-4830-8ddc-bdaae0c1cac2")
 	)
 	(label "D6"
-		(at 245.11 109.22 180)
+		(at 245.11 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9300,7 +9274,7 @@
 		(uuid "b967c762-9aff-4dc2-bb2b-31a493dd7db5")
 	)
 	(label "D2"
-		(at 245.11 99.06 180)
+		(at 245.11 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9479,6 +9453,16 @@
 		)
 		(uuid "ea533f8a-cf15-4d37-a31a-ff6eb1834153")
 	)
+	(label "GND"
+		(at 256.54 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea9abd32-3fef-42b3-bdce-47a2646fb148")
+	)
 	(label "DISP_SDA"
 		(at 71.12 101.6 180)
 		(effects
@@ -9500,7 +9484,7 @@
 		(uuid "f3c4d970-99e6-4a39-ac49-60d4137da2c7")
 	)
 	(label "D5"
-		(at 245.11 106.68 180)
+		(at 245.11 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9580,7 +9564,7 @@
 		(uuid "fc17bbd1-97c7-42d5-8c5d-1822a92b38a1")
 	)
 	(label "CS"
-		(at 245.11 124.46 180)
+		(at 245.11 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12947,7 +12931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm"
+		(property "Footprint" "bonanzaDisplay:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm"
 			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
@@ -16680,131 +16664,6 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 236.22 220.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e89f9808-3c11-47e1-9b6e-0752165766b0")
-		(property "Reference" "C37"
-			(at 236.728 218.948 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 236.728 223.012 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 236.22 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 236.22 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key Part Number" ""
-			(at 236.22 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 236.22 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 236.22 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 236.22 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1735e177-1f6d-4e1e-8c2a-6f4e7ac58ac1")
-		)
-		(pin "2"
-			(uuid "69b933ae-1f90-449e-a3b5-47998c1d5cb0")
-		)
-		(instances
-			(project "bonanzaDisplay"
-				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
-					(reference "C37")
 					(unit 1)
 				)
 			)
