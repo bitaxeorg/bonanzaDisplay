@@ -5539,9 +5539,9 @@
 		)
 		(uuid "505c6675-6de1-4883-b008-e0ce12338344")
 	)
-	(text "Place R4/R5 close to RP2040"
+	(text "Place close to RP2040"
 		(exclude_from_sim no)
-		(at 248.412 77.724 0)
+		(at 231.902 80.772 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5549,6 +5549,17 @@
 			(justify left bottom)
 		)
 		(uuid "0e094336-cf07-4707-84cf-cfddee153db2")
+	)
+	(text "Debug USB"
+		(exclude_from_sim no)
+		(at 328.422 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34d8039f-c173-441d-83ec-13d60940b016")
 	)
 	(text "BOOT"
 		(exclude_from_sim no)
@@ -5560,9 +5571,9 @@
 		)
 		(uuid "3a9d1fad-7225-4600-9093-ca879aaaf561")
 	)
-	(text "JST Debug Connector"
+	(text "SWD Connector"
 		(exclude_from_sim no)
-		(at 141.224 174.752 0)
+		(at 137.922 174.752 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5583,6 +5594,17 @@
 			(justify left bottom)
 		)
 		(uuid "583c1d4c-e9e7-43c3-a8a9-4f53f84b782f")
+	)
+	(text "3.3V Regulator"
+		(exclude_from_sim no)
+		(at 64.77 122.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6adb7396-732f-490a-a7ff-4cf9de3123d2")
 	)
 	(text "5-way Nav Switch"
 		(exclude_from_sim no)
@@ -5664,12 +5686,6 @@
 		(uuid "157da311-b55c-4ec5-af4f-b89d772ba301")
 	)
 	(junction
-		(at 127 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c1785e7-8a12-40da-8669-c1c9fa0b0d98")
-	)
-	(junction
 		(at 304.8 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5718,10 +5734,22 @@
 		(uuid "51d79acd-76b6-40fb-9c1d-780edeeccf53")
 	)
 	(junction
+		(at 123.19 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "535938f6-b605-4524-bf29-c998f3a624de")
+	)
+	(junction
 		(at 140.97 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "577f5e67-1e0d-405c-875b-8f0605f8d557")
+	)
+	(junction
+		(at 83.82 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "593f9931-ae63-43e7-a82a-6e8a832442ad")
 	)
 	(junction
 		(at 261.62 58.42)
@@ -5734,6 +5762,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c722e96-8a7b-4be5-aff0-1066843973ad")
+	)
+	(junction
+		(at 185.42 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5edfb9d7-803b-4038-ab07-27170be81eed")
 	)
 	(junction
 		(at 246.38 69.85)
@@ -5772,6 +5806,12 @@
 		(uuid "6db4c185-6065-4aaf-9280-c32432034663")
 	)
 	(junction
+		(at 123.19 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "763de7f4-42b7-43cf-ae91-d60630e4b07a")
+	)
+	(junction
 		(at 148.59 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5782,6 +5822,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d5a92ba-5b9b-4c45-b0b9-4adf04009395")
+	)
+	(junction
+		(at 267.97 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80327b50-8948-4e86-a1eb-1ba013e39006")
 	)
 	(junction
 		(at 238.76 58.42)
@@ -5820,22 +5866,28 @@
 		(uuid "9730b39a-d9e2-4ea2-bde2-4c2e484eeb4f")
 	)
 	(junction
-		(at 71.12 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0b8c9fe-af91-4799-ac41-1d9d720ed0da")
-	)
-	(junction
 		(at 238.76 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0c6d18b-49f4-4228-838b-89cb8b5e5381")
 	)
 	(junction
+		(at 267.97 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a22582ca-ddd3-4816-b373-6a2b8d910d3f")
+	)
+	(junction
 		(at 123.19 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a30bea59-e601-424c-a5e0-28e01364b3d7")
+	)
+	(junction
+		(at 83.82 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a445d70a-b1ac-480b-a99e-d7c51a8b4195")
 	)
 	(junction
 		(at 74.93 143.51)
@@ -5850,10 +5902,22 @@
 		(uuid "ba8b2be3-d8e3-4d2f-91df-c6be632942e8")
 	)
 	(junction
+		(at 267.97 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c20d6ca1-c87d-4e1a-8ba3-4fc876b9e21a")
+	)
+	(junction
 		(at 163.83 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9d65e64-169e-44b0-b995-5653f606eebf")
+	)
+	(junction
+		(at 123.19 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd8d0ea7-b395-436e-9f06-03c61b3ebe28")
 	)
 	(junction
 		(at 63.5 248.92)
@@ -6375,7 +6439,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 147.32) (xy 127 152.4)
+			(xy 123.19 147.32) (xy 123.19 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6512,6 +6576,16 @@
 			(type default)
 		)
 		(uuid "39742309-0c42-41c2-812a-1939d227c8cf")
+	)
+	(wire
+		(pts
+			(xy 123.19 121.92) (xy 123.19 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ed3a6a-9d16-4763-8ce4-f5f36d05f5eb")
 	)
 	(wire
 		(pts
@@ -6695,7 +6769,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 157.48) (xy 133.35 157.48)
+			(xy 123.19 157.48) (xy 133.35 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6925,7 +6999,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 147.32) (xy 133.35 147.32)
+			(xy 123.19 147.32) (xy 133.35 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7705,16 +7779,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 135.89 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1179de5-64f7-469e-9929-bcb4d05824e2")
-	)
-	(wire
-		(pts
 			(xy 208.28 58.42) (xy 208.28 76.2)
 		)
 		(stroke
@@ -7755,13 +7819,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 127 157.48)
+			(xy 123.19 152.4) (xy 123.19 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b47a8423-b328-44bf-b07e-2667fc0f0d25")
+	)
+	(wire
+		(pts
+			(xy 123.19 152.4) (xy 135.89 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ba9571-194b-43d1-a7a2-42d4c5337d6c")
 	)
 	(wire
 		(pts
@@ -8285,7 +8359,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 132.08) (xy 71.12 132.08)
+			(xy 67.31 132.08) (xy 74.93 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8422,16 +8496,6 @@
 			(type default)
 		)
 		(uuid "f1579c3a-c14e-42a8-b102-7d1c1a5a7567")
-	)
-	(wire
-		(pts
-			(xy 71.12 132.08) (xy 74.93 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f16003bb-f61f-43fb-ba92-07090a277428")
 	)
 	(wire
 		(pts
@@ -8844,7 +8908,7 @@
 		(uuid "487cf9b8-cec2-4ed3-907d-cfb5290bb6da")
 	)
 	(label "GND"
-		(at 127 152.4 0)
+		(at 124.46 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9598,6 +9662,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 227.33 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04e38053-dccf-4621-93bd-a7bc9b10375c")
+		(property "Reference" "TP14"
+			(at 108.712 227.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_CEN"
+			(at 108.712 229.616 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
+			(at 113.03 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 113.03 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 113.03 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 113.03 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 113.03 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 113.03 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "505a1e8a-0e11-4b3a-927b-6b79de81005b")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bonanzaDisplay:Crystal_GND24")
 		(at 140.97 152.4 270)
 		(unit 1)
@@ -9977,7 +10174,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6206"
+		(property "Value" "XC6206P302MR"
 			(at 252.73 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,6 +10870,139 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.82 152.4 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "238595e3-7d21-4cf1-bd15-66d2b5d2d53c")
+		(property "Reference" "TP19"
+			(at 88.138 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.138 154.432 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
+			(at 83.82 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 83.82 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 83.82 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 83.82 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 83.82 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 83.82 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09caef53-24f4-4853-8c3b-9f1119c6c3fc")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -11694,6 +12024,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 232.41 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "575a8a90-e835-4e41-b702-84a5ed97c56d")
+		(property "Reference" "TP13"
+			(at 108.712 232.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_C"
+			(at 108.712 234.696 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
+			(at 113.03 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 113.03 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 113.03 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 113.03 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 113.03 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 113.03 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99ebc4ff-bd08-4d2c-99e1-4b66cc81023c")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 74.93 147.32 180)
 		(unit 1)
@@ -12059,6 +12522,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 232.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e17ea49-cb46-41a9-8553-f6dd587b6d25")
+		(property "Reference" "TP11"
+			(at 152.908 232.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_B"
+			(at 152.908 234.696 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
+			(at 148.59 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 148.59 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 148.59 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 148.59 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 148.59 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 148.59 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af6ca1e7-8c36-4941-9496-e6b23c720293")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 140.97 95.25 0)
 		(unit 1)
@@ -12168,6 +12763,139 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 222.25 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7379d4e8-7df1-4ad7-bddc-c9bc8b7eb974")
+		(property "Reference" "TP12"
+			(at 108.712 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_A"
+			(at 108.712 224.536 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
+			(at 113.03 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 113.03 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 113.03 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 113.03 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 113.03 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 113.03 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1229bf5-4b05-490a-89ba-9b24bfb53864")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -13914,6 +14642,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 58.42 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "868e51c6-2875-4b2b-b8e0-6a085b4ec6c6")
+		(property "Reference" "TP17"
+			(at 189.738 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1V1"
+			(at 189.738 56.134 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
+			(at 185.42 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 185.42 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 185.42 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 185.42 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 185.42 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 185.42 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "447fab58-3bd1-44ca-b233-75919f3e9359")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 299.72 149.86 0)
 		(unit 1)
@@ -14297,7 +15158,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6206"
+		(property "Value" "XC6206P282MR"
 			(at 252.73 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14738,6 +15599,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 222.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1657b25-0f7d-4a11-8f50-c5dfd2a39502")
+		(property "Reference" "TP10"
+			(at 152.908 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_D"
+			(at 152.908 224.536 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
+			(at 148.59 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 148.59 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 148.59 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 148.59 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 148.59 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 148.59 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2786dec-9460-4d14-af74-e96cb0f5411a")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bonanzaDisplay:tactile-switch-5way")
 		(at 130.81 227.33 0)
 		(unit 1)
@@ -14977,9 +15970,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b95ab259-120b-462c-97a0-4aab3eab78a4")
 		(property "Reference" "J15"
@@ -15070,6 +16063,139 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 215.9 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbbf7ec1-5a7a-4732-81ba-9e6d3aea6c9e")
+		(property "Reference" "TP15"
+			(at 272.288 215.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V0"
+			(at 272.288 213.614 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
+			(at 267.97 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 267.97 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 267.97 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 267.97 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 267.97 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 267.97 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 267.97 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6997280b-e8e7-45bd-bbd8-ffba54d9584c")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -16051,6 +17177,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 240.03 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0bee801-d86a-4967-9aca-be024bf2e2be")
+		(property "Reference" "TP16"
+			(at 272.288 240.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2V8"
+			(at 272.288 237.744 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
+			(at 267.97 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 267.97 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 267.97 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 267.97 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 267.97 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 267.97 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 267.97 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43219808-75dd-438a-8158-b9b358c8e454")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 261.62 63.5 0)
 		(unit 1)
@@ -16188,7 +17447,7 @@
 		(dnp no)
 		(uuid "d1ceefd1-c872-4ee9-aff2-d9836a67e6e8")
 		(property "Reference" "J6"
-			(at 320.04 61.976 0)
+			(at 313.69 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16199,7 +17458,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 314.198 64.262 0)
+			(at 317.5 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16671,7 +17930,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 71.12 132.08 0)
+		(at 267.97 251.46 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16679,9 +17939,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f454b53d-7819-4fd1-aead-53b1cf7964ae")
-		(property "Reference" "TP9"
-			(at 71.12 127.762 90)
+		(uuid "f0661c18-617d-4247-a9a7-f25514ef8fbd")
+		(property "Reference" "TP18"
+			(at 272.288 251.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16691,8 +17951,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V3"
-			(at 73.406 127.762 90)
+		(property "Value" "GND"
+			(at 272.288 249.174 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16703,7 +17963,7 @@
 			)
 		)
 		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
-			(at 76.2 132.08 0)
+			(at 267.97 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16714,7 +17974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 132.08 0)
+			(at 267.97 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16725,7 +17985,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 71.12 132.08 0)
+			(at 267.97 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16736,7 +17996,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 71.12 132.08 0)
+			(at 267.97 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16747,7 +18007,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 71.12 132.08 0)
+			(at 267.97 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16757,7 +18017,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 71.12 132.08 90)
+			(at 267.97 251.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16768,7 +18028,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 71.12 132.08 90)
+			(at 267.97 251.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16779,7 +18039,139 @@
 			)
 		)
 		(property "Height" ""
-			(at 71.12 132.08 90)
+			(at 267.97 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f478461a-a440-42f7-b75e-e50dbd609c4e")
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.82 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f454b53d-7819-4fd1-aead-53b1cf7964ae")
+		(property "Reference" "TP9"
+			(at 88.138 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3"
+			(at 88.138 134.366 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
+			(at 83.82 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 83.82 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 83.82 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 83.82 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 83.82 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 83.82 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
