@@ -9782,6 +9782,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C344022"
+			(at 35.56 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "505a1e8a-0e11-4b3a-927b-6b79de81005b")
 		)
@@ -9873,6 +9884,17 @@
 		)
 		(property "Manufacturer" "Abracon "
 			(at 140.97 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C171694"
+			(at 74.93 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10013,6 +10035,27 @@
 				)
 			)
 		)
+		(property "Voltage" "6.6V"
+			(at 234.95 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 74.93 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d7eac13-d5cf-49aa-b53f-6c03f8994de2")
 		)
@@ -10137,6 +10180,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C137960"
+			(at 317.5 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "39035635-d346-4b2a-999f-119895e75f5d")
 		)
@@ -10239,8 +10293,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C347375"
-			(at 252.73 215.9 0)
+		(property "LCSC" "C477764"
+			(at 323.85 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10378,6 +10432,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C368809"
+			(at 240.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6b9b2c6-f82b-45e7-94e1-395d9ea706ad")
 		)
@@ -10494,6 +10559,27 @@
 		)
 		(property "Supplier" ""
 			(at 304.8 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6V"
+			(at 307.848 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 74.93 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10737,6 +10823,27 @@
 				)
 			)
 		)
+		(property "Voltage" "24V"
+			(at 294.386 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 290.83 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d51f10be-c2b8-4cd5-b978-cc8d0910ee96")
 		)
@@ -10850,6 +10957,17 @@
 			)
 		)
 		(property "Supplier" "LCSC"
+			(at 154.94 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106235"
 			(at 154.94 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10996,6 +11114,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C138021"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09caef53-24f4-4853-8c3b-9f1119c6c3fc")
 		)
@@ -11116,8 +11245,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C473914"
-			(at 57.15 167.894 0)
+		(property "ME" "595-TPS82130SILR"
+			(at 57.658 159.258 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11127,8 +11256,8 @@
 				)
 			)
 		)
-		(property "ME" "595-TPS82130SILR"
-			(at 57.658 159.258 0)
+		(property "LCSC" "C106235"
+			(at 154.94 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11284,6 +11413,27 @@
 				)
 			)
 		)
+		(property "Voltage" "6.6V"
+			(at 127 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C368809"
+			(at 154.94 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b9b9827-ad0e-4a98-944b-f3d4245b3321")
 		)
@@ -11397,6 +11547,17 @@
 			)
 		)
 		(property "Supplier" "LCSC"
+			(at 153.67 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C138021"
 			(at 153.67 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11532,6 +11693,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C60490"
+			(at 154.94 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "98a3b7ef-c670-4b6b-b8f7-816865c278ef")
 		)
@@ -11648,6 +11820,27 @@
 		)
 		(property "Supplier" "LCSC"
 			(at 132.08 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2.2V"
+			(at 135.89 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C368809"
+			(at 317.5 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12008,6 +12201,27 @@
 				)
 			)
 		)
+		(property "Voltage" "5.6V"
+			(at 272.034 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C29266"
+			(at 267.97 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d3695449-5f21-4d08-aa40-082755f1176b")
 		)
@@ -12266,6 +12480,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C60491"
+			(at 74.93 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4e5e98d9-48e9-4540-8ac1-6cb0f4b09c54")
 		)
@@ -12381,6 +12606,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 44.45 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307337"
 			(at 44.45 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13011,6 +13247,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C917006"
+			(at 309.88 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0d7ff8d4-a8f1-46fe-b662-f51db2e7e805")
 		)
@@ -13104,6 +13351,17 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 135.89 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C161512"
 			(at 135.89 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -13238,6 +13496,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C137960"
+			(at 317.5 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bcd00cec-36b5-46b3-a229-534b4fe291df")
 		)
@@ -13353,6 +13622,27 @@
 			)
 		)
 		(property "Supplier" "Mouser"
+			(at 269.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6.6V"
+			(at 273.05 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 269.24 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13498,6 +13788,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C344022"
+			(at 35.56 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "082a7c3e-b651-47de-9a9c-8b1170a962a0")
 		)
@@ -13621,6 +13922,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C138021"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b95ee83-4e8b-452e-8990-4ce56d756528")
 		)
@@ -13717,6 +14029,17 @@
 			(at 203.2 129.54 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41378174"
+			(at 203.2 127 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -14024,6 +14347,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C477764"
+			(at 323.85 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4688f44-e7e6-4486-b576-bc7334b920d1")
 		)
@@ -14139,6 +14473,27 @@
 			)
 		)
 		(property "Supplier" ""
+			(at 267.97 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6V"
+			(at 271.018 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C29266"
 			(at 267.97 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -14274,6 +14629,27 @@
 				)
 			)
 		)
+		(property "Voltage" "6.6V"
+			(at 227.33 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 223.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "519c25c0-e12a-4839-a89e-e00ac1652afd")
 		)
@@ -14389,6 +14765,27 @@
 			)
 		)
 		(property "Supplier" "Mouser"
+			(at 254 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6.6V"
+			(at 257.81 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 254 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14626,6 +15023,27 @@
 			)
 		)
 		(property "Supplier" "LCSC"
+			(at 172.72 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2.2V"
+			(at 176.784 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C368809"
 			(at 172.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14894,6 +15312,27 @@
 				)
 			)
 		)
+		(property "Voltage" "24V"
+			(at 303.53 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 299.72 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a1c23784-facb-4371-a6b8-587ce76db104")
 		)
@@ -15121,6 +15560,17 @@
 			)
 		)
 		(property "Supplier" ""
+			(at 284.48 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C29266"
 			(at 284.48 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15471,6 +15921,27 @@
 			)
 		)
 		(property "Supplier" "LCSC"
+			(at 160.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2.2V"
+			(at 157.226 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C368809"
 			(at 160.02 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15958,6 +16429,27 @@
 				)
 			)
 		)
+		(property "Voltage" "6.6V"
+			(at 250.19 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 246.38 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cc1203ba-ccdd-488b-9074-797462cad4e6")
 		)
@@ -16319,6 +16811,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C138021"
+			(at 240.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4856156-58f3-44e2-8e18-3a3d6f8797f8")
 		)
@@ -16412,6 +16915,17 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 135.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C161512"
 			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16528,6 +17042,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 52.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2908569"
 			(at 52.07 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16687,6 +17212,27 @@
 				)
 			)
 		)
+		(property "Voltage" "6.6V"
+			(at 242.57 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 238.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7de3a085-5bf2-4a4e-81f9-0d771a64f572")
 		)
@@ -16802,6 +17348,17 @@
 			)
 		)
 		(property "DK" "1N4148WTCT-ND"
+			(at 300.99 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C917006"
 			(at 300.99 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -16937,6 +17494,27 @@
 				)
 			)
 		)
+		(property "Voltage" "6.6V"
+			(at 86.36 146.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C386093"
+			(at 83.82 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8b513c1-86e6-4985-b18b-dfa40c9837e9")
 		)
@@ -17052,6 +17630,27 @@
 			)
 		)
 		(property "Supplier" ""
+			(at 236.22 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6.6V"
+			(at 240.284 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C29266"
 			(at 236.22 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -17429,6 +18028,27 @@
 				)
 			)
 		)
+		(property "Voltage" "6.6V"
+			(at 265.43 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 261.62 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "525aa62e-c6e8-4983-a739-c5dc46094fdc")
 		)
@@ -17534,6 +18154,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 323.85 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2988369"
 			(at 323.85 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17692,6 +18323,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 74.93 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C171694"
 			(at 74.93 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -18313,6 +18955,27 @@
 				)
 			)
 		)
+		(property "Voltage" "2.2V"
+			(at 159.004 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 154.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd35c988-91bc-4c53-992a-af9d5e439369")
 		)
@@ -18438,6 +19101,27 @@
 				)
 			)
 		)
+		(property "Voltage" "6V"
+			(at 296.418 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C368809"
+			(at 293.37 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "483d3e38-3f48-43c5-8c8d-6d523f51d6c5")
 		)
@@ -18553,6 +19237,27 @@
 			)
 		)
 		(property "Supplier" "Mouser"
+			(at 163.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2.2V"
+			(at 167.64 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 163.83 63.5 0)
 			(hide yes)
 			(show_name no)
