@@ -13488,6 +13488,16 @@
 				)
 			)
 		)
+		(property "Voltage" "24V"
+			(at 37.846 141.732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "082a7c3e-b651-47de-9a9c-8b1170a962a0")
 		)
