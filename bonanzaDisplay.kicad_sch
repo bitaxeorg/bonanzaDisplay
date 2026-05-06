@@ -2429,8 +2429,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 -11.43 180)
+				(pin passive line
+					(at 3.81 8.89 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2447,10 +2447,9 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 -11.43 180)
 					(length 2.54)
-					(hide yes)
 					(name ""
 						(effects
 							(font
@@ -6419,7 +6418,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 130.81) (xy 48.26 130.81)
+			(xy 43.18 130.81) (xy 48.26 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7376,6 +7375,16 @@
 			(type default)
 		)
 		(uuid "86f87b55-f946-4a73-8770-af01c2e9faa3")
+	)
+	(wire
+		(pts
+			(xy 43.18 110.49) (xy 48.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8754e65f-26b7-4a1a-ab27-979d28249f27")
 	)
 	(wire
 		(pts
@@ -8888,7 +8897,7 @@
 		(uuid "28838b11-54e7-4d9a-8b60-96262c6969cf")
 	)
 	(label "GND"
-		(at 41.91 130.81 0)
+		(at 43.18 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9386,6 +9395,16 @@
 			(justify left bottom)
 		)
 		(uuid "b3e60bf8-248e-4019-b51b-ced41cbddf8e")
+	)
+	(label "GND"
+		(at 43.18 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b62a0a19-d618-4d5c-a49e-96cd1e981ece")
 	)
 	(label "DC"
 		(at 320.04 180.34 0)

@@ -1833,8 +1833,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 3.81 -11.43 180)
+			(pin passive line
+				(at 3.81 8.89 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1851,10 +1851,9 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 3.81 -11.43 180)
 				(length 2.54)
-				(hide yes)
 				(name ""
 					(effects
 						(font
