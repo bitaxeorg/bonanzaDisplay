@@ -9797,30 +9797,8 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 134.62 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Power" ""
 			(at 134.62 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 134.62 227.33 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9840,8 +9818,8 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 134.62 227.33 90)
+		(property "LCSC" "C344022"
+			(at 57.15 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9851,8 +9829,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C344022"
-			(at 57.15 139.7 0)
+		(property "ME" ""
+			(at 134.62 227.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9940,17 +9918,6 @@
 				)
 			)
 		)
-		(property "MPN" "ABM8-272-T3"
-			(at 140.97 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Abracon "
 			(at 140.97 152.4 0)
 			(hide yes)
@@ -9964,6 +9931,28 @@
 		)
 		(property "LCSC" "C9002"
 			(at 74.93 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 140.97 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "ABM8-272-T3"
+			(at 140.97 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10060,40 +10049,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
 			(at 231.14 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10116,6 +10072,28 @@
 		)
 		(property "LCSC" "C77020"
 			(at 74.93 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 231.14 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
+			(at 231.14 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10205,28 +10183,6 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 317.5 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 317.5 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 317.5 200.66 0)
 			(hide yes)
@@ -10238,8 +10194,8 @@
 				)
 			)
 		)
-		(property "Supplier" ""
-			(at 317.5 200.66 0)
+		(property "LCSC" "C105871"
+			(at 317.5 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10249,8 +10205,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
-			(at 317.5 223.52 0)
+		(property "ME" ""
+			(at 317.5 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "RC0402FR-074K7L"
+			(at 317.5 200.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10373,6 +10340,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 252.73 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0055e396-549b-4779-b066-c43228c3e3a3")
 		)
@@ -10457,40 +10435,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 308.61 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R60J475ME87D"
-			(at 308.61 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 308.61 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 308.61 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10503,6 +10448,28 @@
 		)
 		(property "LCSC" "C368809"
 			(at 240.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 308.61 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL05A475KP5NRNC"
+			(at 308.61 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10593,40 +10560,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 304.8 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 304.8 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 304.8 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
 			(at 304.8 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -10649,6 +10583,28 @@
 		)
 		(property "LCSC" "C77020"
 			(at 74.93 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 304.8 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
+			(at 304.8 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10740,17 +10696,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 44.45 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 44.45 236.22 0)
 			(hide yes)
@@ -10762,7 +10707,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 44.45 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10848,40 +10793,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 290.83 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 290.83 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 290.83 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
 			(at 290.83 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10903,6 +10815,28 @@
 			)
 		)
 		(property "LCSC" "C15850"
+			(at 290.83 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 290.83 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL21A106KAYNNNE"
 			(at 290.83 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10992,40 +10926,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 154.94 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-071KL"
-			(at 154.94 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
-			(at 154.94 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 154.94 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11038,6 +10939,28 @@
 		)
 		(property "LCSC" "C106235"
 			(at 154.94 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 154.94 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "RC0402FR-071KL"
+			(at 154.94 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11129,30 +11052,8 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 114.3 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Power" ""
 			(at 114.3 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 114.3 62.23 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11172,8 +11073,8 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 114.3 62.23 90)
+		(property "LCSC" "C138021"
+			(at 270.51 -3.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11183,8 +11084,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C138021"
-			(at 270.51 -3.81 0)
+		(property "ME" ""
+			(at 114.3 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11272,40 +11173,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 123.19 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R60J475ME87D"
-			(at 123.19 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 123.19 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 123.19 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11328,6 +11196,28 @@
 		)
 		(property "LCSC" "C368809"
 			(at 154.94 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 123.19 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL05A475KP5NRNC"
+			(at 123.19 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11416,40 +11306,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 153.67 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0727RL"
-			(at 153.67 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
-			(at 153.67 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 153.67 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11462,6 +11319,28 @@
 		)
 		(property "LCSC" "C138021"
 			(at 153.67 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 153.67 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0727RL"
+			(at 153.67 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11552,7 +11431,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0713K7L"
 			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11585,7 +11464,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "LCSC" "C274888"
 			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11596,7 +11475,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "ME" ""
 			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11688,40 +11567,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 154.94 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 154.94 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
-			(at 154.94 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 154.94 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11734,6 +11580,28 @@
 		)
 		(property "LCSC" "C60490"
 			(at 154.94 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 154.94 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0710KL"
+			(at 154.94 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11824,40 +11692,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 132.08 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R60J475ME87D"
-			(at 132.08 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 132.08 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11880,6 +11715,28 @@
 		)
 		(property "LCSC" "C368809"
 			(at 317.5 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 132.08 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL05A475KP5NRNC"
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11979,7 +11836,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-075K1L"
 			(at 303.53 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11990,8 +11847,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC" "C105872"
 			(at 303.53 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 303.53 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12093,7 +11961,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TS-1088-AR02016"
 			(at 130.81 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12105,6 +11973,17 @@
 			)
 		)
 		(property "LCSC" "C720477"
+			(at 130.81 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 130.81 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12196,40 +12075,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 267.97 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 267.97 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 267.97 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
 			(at 267.97 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -12251,6 +12097,28 @@
 			)
 		)
 		(property "LCSC" "C29266"
+			(at 267.97 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 267.97 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL05A105KO5NNNC"
 			(at 267.97 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -12343,30 +12211,8 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 134.62 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Power" ""
 			(at 134.62 234.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 134.62 234.95 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12386,7 +12232,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 134.62 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -12475,7 +12321,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0710KL"
 			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12508,7 +12354,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "LCSC" "C60490"
 			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12519,7 +12365,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "ME" ""
 			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12611,7 +12457,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CC0402KRX7R9BB333"
 			(at 58.42 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -12644,7 +12490,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "LCSC" "C106862"
 			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12655,7 +12501,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "ME" ""
 			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12745,8 +12591,30 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C3200405"
-			(at 78.74 62.23 0)
+		(property "ME" ""
+			(at 78.74 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3200405"
+			(at 78.74 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "TPS62933DRLR"
+			(at 78.74 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12867,7 +12735,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TS-1088-AR02016"
 			(at 130.81 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12879,6 +12747,17 @@
 			)
 		)
 		(property "LCSC" "C720477"
+			(at 130.81 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 130.81 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12971,17 +12850,6 @@
 				)
 			)
 		)
-		(property "MPN" "MLP2016H3R3MT0S1"
-			(at 140.97 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "TDK Corporation"
 			(at 140.97 95.25 0)
 			(hide yes)
@@ -12994,6 +12862,28 @@
 			)
 		)
 		(property "LCSC" "C383379"
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "MLP2016H3R3MT0S1"
 			(at 140.97 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13086,30 +12976,8 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 134.62 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Power" ""
 			(at 134.62 224.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 134.62 224.79 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13129,7 +12997,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 134.62 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -13273,6 +13141,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 309.88 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0d7ff8d4-a8f1-46fe-b662-f51db2e7e805")
 		)
@@ -13354,17 +13233,6 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1E100JA01D"
-			(at 135.89 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 135.89 157.48 0)
 			(hide yes)
@@ -13378,6 +13246,28 @@
 		)
 		(property "LCSC" "C161512"
 			(at 135.89 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 135.89 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM1555C1E100JA01D"
+			(at 135.89 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13467,40 +13357,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 317.5 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 317.5 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 317.5 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
 			(at 317.5 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -13513,6 +13370,28 @@
 		)
 		(property "LCSC" "C137960"
 			(at 317.5 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 317.5 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0751RL"
+			(at 317.5 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13603,40 +13482,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 269.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 269.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 269.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
 			(at 269.24 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13658,6 +13504,28 @@
 			)
 		)
 		(property "LCSC" "C77020"
+			(at 269.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 269.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 269.24 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13749,7 +13617,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "MSAST21GBB5106MTNA01"
+		(property "PARTNO" "CL21A106KAYNNNE"
 			(at 35.56 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -13782,17 +13650,6 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 35.56 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Voltage" "25V"
 			(at 31.242 54.61 0)
 			(show_name no)
@@ -13803,7 +13660,18 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15850"
+			(at 35.56 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 35.56 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13893,40 +13761,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 240.03 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0727RL"
-			(at 240.03 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
-			(at 240.03 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 240.03 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13939,6 +13774,28 @@
 		)
 		(property "LCSC" "C138021"
 			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 240.03 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0727RL"
+			(at 240.03 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14052,6 +13909,28 @@
 			)
 		)
 		(property "LCSC" "C41378174"
+			(at 203.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 203.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "RP2354A"
 			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
@@ -14318,40 +14197,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 323.85 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 323.85 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 323.85 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
 			(at 323.85 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14364,6 +14210,28 @@
 		)
 		(property "LCSC" "C477764"
 			(at 323.85 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 323.85 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "RC0402FR-07590KL"
+			(at 323.85 190.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14454,40 +14322,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 267.97 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 267.97 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 267.97 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
 			(at 267.97 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -14509,6 +14344,28 @@
 			)
 		)
 		(property "LCSC" "C29266"
+			(at 267.97 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 267.97 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL05A105KO5NNNC"
 			(at 267.97 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -14600,40 +14457,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 223.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 223.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 223.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
 			(at 223.52 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14655,6 +14479,28 @@
 			)
 		)
 		(property "LCSC" "C77020"
+			(at 223.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 223.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 223.52 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14746,40 +14592,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 254 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 254 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 254 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
 			(at 254 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14801,6 +14614,28 @@
 			)
 		)
 		(property "LCSC" "C77020"
+			(at 254 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 254 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 254 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14893,17 +14728,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 73.66 226.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 73.66 226.06 90)
 			(hide yes)
@@ -14915,7 +14739,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 73.66 226.06 90)
 			(hide yes)
 			(show_name no)
@@ -15001,40 +14825,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 172.72 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R60J475ME87D"
-			(at 172.72 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 172.72 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 172.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15056,6 +14847,28 @@
 			)
 		)
 		(property "LCSC" "C368809"
+			(at 172.72 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 172.72 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL05A475KP5NRNC"
 			(at 172.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15148,30 +14961,8 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 185.42 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Power" ""
 			(at 185.42 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 185.42 58.42 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15191,7 +14982,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 185.42 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -15280,40 +15071,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 299.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 299.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 299.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
 			(at 299.72 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15335,6 +15093,28 @@
 			)
 		)
 		(property "LCSC" "C77020"
+			(at 299.72 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 299.72 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 299.72 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15427,17 +15207,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 73.66 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 73.66 233.68 90)
 			(hide yes)
@@ -15449,7 +15218,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 73.66 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -15535,28 +15304,6 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 284.48 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 284.48 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 284.48 205.74 0)
 			(hide yes)
@@ -15568,7 +15315,7 @@
 				)
 			)
 		)
-		(property "Supplier" ""
+		(property "LCSC" "C29266"
 			(at 284.48 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15579,7 +15326,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C29266"
+		(property "ME" ""
+			(at 284.48 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL05A105KO5NNNC"
 			(at 284.48 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15682,6 +15440,17 @@
 			)
 		)
 		(property "LCSC" "C5832350"
+			(at 99.06 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 99.06 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -15805,6 +15574,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 252.73 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e40c52a6-12f4-48bd-8f16-76bcaa21c644")
 		)
@@ -15890,17 +15670,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 44.45 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 44.45 248.92 0)
 			(hide yes)
@@ -15912,7 +15681,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 44.45 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -15998,40 +15767,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 160.02 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R60J475ME87D"
-			(at 160.02 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 160.02 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 160.02 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -16053,6 +15789,28 @@
 			)
 		)
 		(property "LCSC" "C368809"
+			(at 160.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 160.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL05A475KP5NRNC"
 			(at 160.02 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -16145,17 +15903,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 73.66 248.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 73.66 248.92 90)
 			(hide yes)
@@ -16167,7 +15914,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 73.66 248.92 90)
 			(hide yes)
 			(show_name no)
@@ -16208,7 +15955,7 @@
 				)
 			)
 		)
-		(property "Value" "SIQ-02FVS3_C41430892"
+		(property "Value" "SIQ-02FVS3"
 			(at 155.956 234.188 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16251,8 +15998,30 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C29780879"
-			(at 130.81 229.87 0)
+		(property "ME" ""
+			(at 148.59 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41430892"
+			(at 148.59 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "SIQ-02FVS3"
+			(at 148.59 229.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16355,40 +16124,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 246.38 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 246.38 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 246.38 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
 			(at 246.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16410,6 +16146,28 @@
 			)
 		)
 		(property "LCSC" "C77020"
+			(at 246.38 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 246.38 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 246.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16500,7 +16258,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer" ""
 			(at 130.81 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16511,7 +16269,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "ME" ""
 			(at 130.81 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16607,30 +16365,8 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 267.97 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Power" ""
 			(at 267.97 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 267.97 215.9 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16650,7 +16386,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 267.97 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -16737,40 +16473,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 240.03 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0727RL"
-			(at 240.03 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
-			(at 240.03 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 240.03 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16783,6 +16486,28 @@
 		)
 		(property "LCSC" "C138021"
 			(at 240.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 240.03 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0727RL"
+			(at 240.03 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16873,17 +16598,6 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1E100JA01D"
-			(at 135.89 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 135.89 147.32 0)
 			(hide yes)
@@ -16897,6 +16611,28 @@
 		)
 		(property "LCSC" "C161512"
 			(at 135.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 135.89 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM1555C1E100JA01D"
+			(at 135.89 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17008,7 +16744,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "LCSC" "C262756"
 			(at 52.07 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -17019,7 +16755,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C262756"
+		(property "ME" ""
 			(at 52.07 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -17141,40 +16877,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 238.76 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 238.76 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 238.76 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
 			(at 238.76 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17196,6 +16899,28 @@
 			)
 		)
 		(property "LCSC" "C77020"
+			(at 238.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 238.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 238.76 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17342,6 +17067,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 300.99 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a900dcf7-33e8-4317-b7d9-ecbbcd34b72a")
 		)
@@ -17456,17 +17192,6 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 114.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Voltage" "10V"
 			(at 118.618 57.404 0)
 			(show_name no)
@@ -17477,7 +17202,18 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C602037"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 114.3 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17569,40 +17305,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 236.22 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 236.22 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 236.22 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
 			(at 236.22 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -17624,6 +17327,28 @@
 			)
 		)
 		(property "LCSC" "C29266"
+			(at 236.22 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 236.22 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL05A105KO5NNNC"
 			(at 236.22 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -17716,17 +17441,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 44.45 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 44.45 242.57 0)
 			(hide yes)
@@ -17738,7 +17452,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 44.45 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -17825,30 +17539,8 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 267.97 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Power" ""
 			(at 267.97 240.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 267.97 240.03 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17868,7 +17560,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 267.97 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -17957,40 +17649,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 261.62 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 261.62 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 261.62 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
 			(at 261.62 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18012,6 +17671,28 @@
 			)
 		)
 		(property "LCSC" "C77020"
+			(at 261.62 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 261.62 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 261.62 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18126,7 +17807,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "LCSC" "C2988369"
 			(at 323.85 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -18137,7 +17818,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2988369"
+		(property "ME" ""
 			(at 323.85 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -18262,7 +17943,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0730K9L"
 			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18295,7 +17976,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "LCSC" "C185428"
 			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18306,7 +17987,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "ME" ""
 			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18399,17 +18080,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 44.45 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 44.45 229.87 0)
 			(hide yes)
@@ -18421,7 +18091,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 44.45 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -18508,17 +18178,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 73.66 241.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 73.66 241.3 90)
 			(hide yes)
@@ -18530,7 +18189,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 73.66 241.3 90)
 			(hide yes)
 			(show_name no)
@@ -18616,40 +18275,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 90.17 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 90.17 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 90.17 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
 			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -18672,6 +18298,28 @@
 		)
 		(property "LCSC" "C77020"
 			(at 90.17 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 90.17 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
+			(at 90.17 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18763,30 +18411,8 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 267.97 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Power" ""
 			(at 267.97 251.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 267.97 251.46 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18806,7 +18432,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 267.97 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -18895,30 +18521,8 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 114.3 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Power" ""
 			(at 114.3 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 114.3 46.99 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18938,7 +18542,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ME" ""
 			(at 114.3 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -19027,40 +18631,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 154.94 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 154.94 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 154.94 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
 			(at 154.94 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -19082,6 +18653,28 @@
 			)
 		)
 		(property "LCSC" "C77020"
+			(at 154.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 154.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 154.94 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -19173,40 +18766,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 293.37 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R60J475ME87D"
-			(at 293.37 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 293.37 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 293.37 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -19228,6 +18788,28 @@
 			)
 		)
 		(property "LCSC" "C368809"
+			(at 293.37 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 293.37 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL05A475KP5NRNC"
 			(at 293.37 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -19319,40 +18901,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 163.83 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R71C104KA88J"
-			(at 163.83 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 163.83 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
 			(at 163.83 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -19374,6 +18923,28 @@
 			)
 		)
 		(property "LCSC" "C77020"
+			(at 163.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 163.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 163.83 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -19466,6 +19037,28 @@
 			)
 		)
 		(property "LCSC" "C262645"
+			(at 336.55 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 336.55 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "AFC07-S30ECA-00"
 			(at 336.55 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -19647,40 +19240,7 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 44.45 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 44.45 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 44.45 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
 			(at 44.45 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -19701,7 +19261,29 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C77020"
+			(at 44.45 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 44.45 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 44.45 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -19802,7 +19384,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-075K1L"
 			(at 303.53 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -19813,8 +19395,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC" "C105872"
 			(at 303.53 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 303.53 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

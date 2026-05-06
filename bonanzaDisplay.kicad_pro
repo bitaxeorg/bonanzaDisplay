@@ -68,10 +68,6 @@
         [
           "silk_edge_clearance|143634277|140000000|d5f55f03-570a-4f26-aaba-8ec7599bf153|ab2cc6d2-64a7-49b2-a80c-17eb7e98ab4c",
           ""
-        ],
-        [
-          "silk_edge_clearance|152750000|121268028|c72ee77e-496a-4534-b90c-cf58efb3ae99|173321da-a45e-4cd4-9f21-cb1804babb4b",
-          ""
         ]
       ],
       "meta": {
@@ -644,18 +640,6 @@
         },
         {
           "group_by": false,
-          "label": "Digi-Key Part Number",
-          "name": "Digi-Key Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -668,27 +652,15 @@
         },
         {
           "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Mouser",
-          "name": "Mouser",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "PARTNO",
           "name": "PARTNO",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -706,18 +678,6 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier",
-          "name": "Supplier",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "partnum",
-          "name": "partnum",
           "show": false
         },
         {
