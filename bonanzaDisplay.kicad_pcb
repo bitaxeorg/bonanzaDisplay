@@ -587,6 +587,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22282,6 +22283,18 @@
 		(layer "Edge.Cuts")
 		(uuid "c05a3d3e-b50c-4242-b524-a89cb0ffd467")
 	)
+	(gr_text "FOSS || GTFO"
+		(at 156.65 85.3 270)
+		(layer "F.Cu")
+		(uuid "955037c7-a1e6-4fcd-82f9-17ffe8927a66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SWD"
 		(at 104.565 120.45 0)
 		(layer "F.SilkS")
@@ -22326,18 +22339,6 @@
 			(font
 				(size 2 2)
 				(thickness 0.2)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "FOSS || GTFO"
-		(at 144.775 78.6 270)
-		(layer "F.SilkS")
-		(uuid "955037c7-a1e6-4fcd-82f9-17ffe8927a66")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
 			)
 			(justify left bottom)
 		)

@@ -10362,7 +10362,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C105871"
+		(property "LCSC" "C25900"
 			(at 317.5 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -10384,7 +10384,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-074K7L"
+		(property "PARTNO" ""
 			(at 317.5 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -10614,7 +10614,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C368809"
+		(property "LCSC" "C23733"
 			(at 240.03 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11004,7 +11004,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL21A106KAYNNNE"
+		(property "PARTNO" ""
 			(at 290.83 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -11105,7 +11105,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C106235"
+		(property "LCSC" "C11702"
 			(at 154.94 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11127,7 +11127,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-071KL"
+		(property "PARTNO" ""
 			(at 154.94 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -11362,7 +11362,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C368809"
+		(property "LCSC" "C23733"
 			(at 154.94 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11746,7 +11746,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C60490"
+		(property "LCSC" "C25744"
 			(at 154.94 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11768,7 +11768,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-0710KL"
+		(property "PARTNO" ""
 			(at 154.94 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -11881,7 +11881,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C368809"
+		(property "LCSC" "C23733"
 			(at 317.5 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -12004,7 +12004,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-075K1L"
+		(property "PARTNO" ""
 			(at 303.53 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12015,7 +12015,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C105872"
+		(property "LCSC" "C25905"
 			(at 303.53 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12264,7 +12264,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29266"
+		(property "LCSC" "C52923"
 			(at 267.97 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -12286,7 +12286,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL05A105KO5NNNC"
+		(property "PARTNO" ""
 			(at 267.97 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -12599,7 +12599,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-0710KL"
+		(property "PARTNO" ""
 			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12632,7 +12632,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C60490"
+		(property "LCSC" "C25744"
 			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13632,7 +13632,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C161512"
+		(property "LCSC" "C32949"
 			(at 135.89 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -13654,7 +13654,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM1555C1E100JA01D"
+		(property "PARTNO" ""
 			(at 135.89 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -14005,7 +14005,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL21A106KAYNNNE"
+		(property "PARTNO" ""
 			(at 35.56 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -14841,7 +14841,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29266"
+		(property "LCSC" "C52923"
 			(at 267.97 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -14863,7 +14863,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL05A105KO5NNNC"
+		(property "PARTNO" ""
 			(at 267.97 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -15344,7 +15344,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C368809"
+		(property "LCSC" "C23733"
 			(at 172.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15923,7 +15923,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29266"
+		(property "LCSC" "C52923"
 			(at 284.48 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15945,7 +15945,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL05A105KO5NNNC"
+		(property "PARTNO" ""
 			(at 284.48 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -16478,7 +16478,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C368809"
+		(property "LCSC" "C23733"
 			(at 160.02 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -17420,7 +17420,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C161512"
+		(property "LCSC" "C32949"
 			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -17442,7 +17442,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM1555C1E100JA01D"
+		(property "PARTNO" ""
 			(at 135.89 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -18013,7 +18013,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C602037"
+		(property "LCSC" "C45783"
 			(at 114.3 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -18137,7 +18137,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29266"
+		(property "LCSC" "C52923"
 			(at 236.22 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -18159,7 +18159,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL05A105KO5NNNC"
+		(property "PARTNO" ""
 			(at 236.22 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -19598,7 +19598,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C368809"
+		(property "LCSC" "C23733"
 			(at 293.37 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -20195,7 +20195,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-075K1L"
+		(property "PARTNO" ""
 			(at 303.53 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -20206,7 +20206,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C105872"
+		(property "LCSC" "C25905"
 			(at 303.53 73.66 0)
 			(hide yes)
 			(show_name no)
