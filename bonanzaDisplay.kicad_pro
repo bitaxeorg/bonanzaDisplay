@@ -579,7 +579,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "Manufacturing Files/gerbers/",
+      "plot": "Manufacturing Files/${TITLE}-${REVISION}-gerbers/",
       "specctra_dsn": "",
       "step": "bonanzaDisplay.step",
       "vrml": ""

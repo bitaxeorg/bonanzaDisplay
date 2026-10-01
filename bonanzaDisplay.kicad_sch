@@ -10234,6 +10234,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "-180"
+			(at 241.3 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0055e396-549b-4779-b066-c43228c3e3a3")
 		)
@@ -12717,6 +12728,17 @@
 			)
 		)
 		(property "PARTNO" "TPS62933DRLR"
+			(at 78.74 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "-180"
 			(at 78.74 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16091,6 +16113,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "-180"
+			(at 241.3 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e40c52a6-12f4-48bd-8f16-76bcaa21c644")
 		)
@@ -19337,6 +19370,17 @@
 			)
 		)
 		(property "PARTNO" "AFC07-S30ECA-00"
+			(at 336.55 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" "0,-3.4"
 			(at 336.55 172.72 0)
 			(hide yes)
 			(show_name no)
