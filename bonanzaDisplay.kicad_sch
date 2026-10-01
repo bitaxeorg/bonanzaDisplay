@@ -538,7 +538,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -588,7 +588,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1336,176 +1336,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GT-TC029B-H025-L1N_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW2"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GT-TC029B-H025-L1N"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "bitaxe:SW_CS1213AGF260_CRS"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.citrelay.com/Catalog%20Pages/SwitchCatalog/CS1213.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DK" "2449-CS1213AGF260CT-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PARTNO" "CS1213AGF260"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GT-TC029B-H025-L1N_1_0_1"
-				(polyline
-					(pts
-						(xy -3.05 1.52) (xy 3.05 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.76)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.52) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.76)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GT-TC029B-H025-L1N_1_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -1597,653 +1427,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TYPE-C-31-M-12_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 21.336 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TYPE-C-31-M-12"
-				(at 1.524 -19.558 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "bitaxe:USB-C_SMD-TYPE-C-31-M-12_1"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"
-				(at 0 -24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C165948"
-				(at 0 -26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TYPE-C-31-M-12_1_0_1"
-				(rectangle
-					(start -6.35 19.558)
-					(end 8.89 -18.288)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -16.51 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 17.78 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 11.43 0)
-					(length 2.54)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 6.35 0)
-					(length 2.54)
-					(name "DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "DN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -13.97 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 15.24 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 8.89 0)
-					(length 2.54)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 3.81 0)
-					(length 2.54)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -8.89 0)
-					(length 2.54)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TYPE-C-31-M-12_1_1_1"
-				(pin unspecified line
-					(at 11.43 -13.97 180)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -13.97 180)
-					(length 2.54)
-					(hide yes)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -13.97 180)
-					(length 2.54)
-					(hide yes)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -13.97 180)
-					(length 2.54)
-					(hide yes)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "bitaxe:GT-TC029B-H025-L1N"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW2"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GT-TC029B-H025-L1N"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "bitaxe:SW_CS1213AGF260_CRS"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.citrelay.com/Catalog%20Pages/SwitchCatalog/CS1213.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DK" "2449-CS1213AGF260CT-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PARTNO" "CS1213AGF260"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GT-TC029B-H025-L1N_0_1"
-				(polyline
-					(pts
-						(xy -3.05 1.52) (xy 3.05 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.76)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.52) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.76)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GT-TC029B-H025-L1N_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -3060,6 +2243,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bonanzaDisplay:GT-TC029B-H025-L1N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW1"
+				(at 2.794 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1088-AR02016"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bonanzaDisplay:SW-SMD_L3.9-W3.0-P4.45"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DK" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTNO" "TS-1088-AR02016"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C720477"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ME" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GT-TC029B-H025-L1N_0_1"
+				(polyline
+					(pts
+						(xy -3.05 1.52) (xy 3.05 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.76)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.52) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.76)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GT-TC029B-H025-L1N_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bonanzaDisplay:OLED-3.12-SSD1322"
 			(pin_names
 				(offset 1.016)
@@ -3070,7 +2445,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J1"
-				(at -0.762 38.1 0)
+				(at -1.016 39.116 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3080,8 +2455,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OLED-3.12-SSD1322"
-				(at -2.286 -41.402 0)
+			(property "Value" "OLED-1.31-SSD1322"
+				(at 5.08 -41.91 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3091,7 +2466,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "bonanzaDisplay:FPC-SMD_P0.50-30P_LCS-SJ-H2.0"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3115,6 +2490,39 @@
 			)
 			(property "Description" "Generic connector, single row, 01x30, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at -1.524 -44.196 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C262645"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ME" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTNO" "AFC07-S30ECA-00"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5392,6 +4800,406 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bonanzaDisplay:TYPE-C-31-M-12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J6"
+				(at 1.27 24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TYPE-C-31-M-12"
+				(at 1.27 21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bonanzaDisplay:USB-C_SMD-TYPE-C-31-M-12_1"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C165948"
+				(at 0 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTNO" "TYPE-C-31-M-12"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FT Origin" "Center"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TYPE-C-31-M-12_0_1"
+				(rectangle
+					(start -6.35 19.558)
+					(end 8.89 -18.288)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -16.51 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 17.78 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 11.43 0)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 6.35 0)
+					(length 2.54)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -6.35 0)
+					(length 2.54)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -13.97 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 15.24 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 8.89 0)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -8.89 0)
+					(length 2.54)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TYPE-C-31-M-12_1_1"
+				(pin unspecified line
+					(at 11.43 -13.97 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -13.97 180)
+					(length 2.54)
+					(hide yes)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -13.97 180)
+					(length 2.54)
+					(hide yes)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -13.97 180)
+					(length 2.54)
+					(hide yes)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bonanzaDisplay:XC6206"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5666,6 +5474,17 @@
 		)
 		(uuid "af2deecb-c0fd-4a14-9929-3872d66069fa")
 	)
+	(text "Display Ref Voltage Regulators"
+		(exclude_from_sim no)
+		(at 256.794 210.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e86690d5-05df-417b-9ab2-6bd1820312d1")
+	)
 	(text "RESET"
 		(exclude_from_sim no)
 		(at 130.81 111.506 0)
@@ -5725,7 +5544,7 @@
 		(uuid "2e33b894-6f23-4098-898e-2480a013f9bd")
 	)
 	(junction
-		(at 252.73 251.46)
+		(at 241.3 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "340bb1cd-2252-4d05-bd36-7716ba8eb512")
@@ -5839,7 +5658,7 @@
 		(uuid "777c0584-54c1-4e2e-a0ad-a3106ffdcb96")
 	)
 	(junction
-		(at 267.97 251.46)
+		(at 256.54 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80327b50-8948-4e86-a1eb-1ba013e39006")
@@ -5905,7 +5724,7 @@
 		(uuid "a0c6d18b-49f4-4228-838b-89cb8b5e5381")
 	)
 	(junction
-		(at 267.97 240.03)
+		(at 256.54 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a22582ca-ddd3-4816-b373-6a2b8d910d3f")
@@ -5923,7 +5742,7 @@
 		(uuid "ba8b2be3-d8e3-4d2f-91df-c6be632942e8")
 	)
 	(junction
-		(at 267.97 215.9)
+		(at 256.54 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c20d6ca1-c87d-4e1a-8ba3-4fc876b9e21a")
@@ -6366,7 +6185,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 130.81) (xy 48.26 130.81)
+			(xy 43.18 135.89) (xy 48.26 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6566,7 +6385,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 240.03) (xy 236.22 240.03)
+			(xy 233.68 243.84) (xy 224.79 243.84)
 		)
 		(stroke
 			(width 0)
@@ -6656,7 +6475,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 223.52) (xy 252.73 227.33)
+			(xy 241.3 227.33) (xy 241.3 231.14)
 		)
 		(stroke
 			(width 0)
@@ -6716,7 +6535,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 251.46) (xy 252.73 251.46)
+			(xy 224.79 255.27) (xy 241.3 255.27)
 		)
 		(stroke
 			(width 0)
@@ -6856,7 +6675,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 251.46) (xy 267.97 251.46)
+			(xy 241.3 255.27) (xy 256.54 255.27)
 		)
 		(stroke
 			(width 0)
@@ -7216,7 +7035,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 240.03) (xy 236.22 242.57)
+			(xy 224.79 243.84) (xy 224.79 246.38)
 		)
 		(stroke
 			(width 0)
@@ -7346,7 +7165,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 240.03) (xy 267.97 240.03)
+			(xy 248.92 243.84) (xy 256.54 243.84)
 		)
 		(stroke
 			(width 0)
@@ -7496,7 +7315,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 247.65) (xy 236.22 251.46)
+			(xy 224.79 251.46) (xy 224.79 255.27)
 		)
 		(stroke
 			(width 0)
@@ -7576,7 +7395,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 215.9) (xy 267.97 215.9)
+			(xy 248.92 219.71) (xy 256.54 219.71)
 		)
 		(stroke
 			(width 0)
@@ -7696,7 +7515,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 227.33) (xy 267.97 223.52)
+			(xy 256.54 231.14) (xy 256.54 227.33)
 		)
 		(stroke
 			(width 0)
@@ -8186,7 +8005,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 247.65) (xy 252.73 251.46)
+			(xy 241.3 251.46) (xy 241.3 255.27)
 		)
 		(stroke
 			(width 0)
@@ -8196,7 +8015,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 227.33) (xy 267.97 227.33)
+			(xy 241.3 231.14) (xy 256.54 231.14)
 		)
 		(stroke
 			(width 0)
@@ -8206,7 +8025,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 251.46) (xy 267.97 247.65)
+			(xy 256.54 255.27) (xy 256.54 251.46)
 		)
 		(stroke
 			(width 0)
@@ -8486,7 +8305,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 215.9) (xy 236.22 215.9)
+			(xy 233.68 219.71) (xy 224.79 219.71)
 		)
 		(stroke
 			(width 0)
@@ -8506,7 +8325,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 215.9) (xy 267.97 218.44)
+			(xy 256.54 219.71) (xy 256.54 222.25)
 		)
 		(stroke
 			(width 0)
@@ -8656,7 +8475,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 240.03) (xy 267.97 242.57)
+			(xy 256.54 243.84) (xy 256.54 246.38)
 		)
 		(stroke
 			(width 0)
@@ -8845,7 +8664,7 @@
 		(uuid "0889b650-149e-412b-b8b1-f43e69eae154")
 	)
 	(label "GND"
-		(at 256.54 227.33 0)
+		(at 245.11 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8975,7 +8794,7 @@
 		(uuid "28838b11-54e7-4d9a-8b60-96262c6969cf")
 	)
 	(label "GND"
-		(at 43.18 130.81 0)
+		(at 43.18 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9115,7 +8934,7 @@
 		(uuid "4de1d218-d8d0-42ba-87ac-e12e825bdf61")
 	)
 	(label "3V0"
-		(at 267.97 215.9 180)
+		(at 256.54 219.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9385,7 +9204,7 @@
 		(uuid "8ac1fa8d-891d-4fce-a41a-9321716fa58d")
 	)
 	(label "2V8"
-		(at 267.97 240.03 180)
+		(at 256.54 243.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9415,7 +9234,7 @@
 		(uuid "91af6c22-6f7d-4742-99d6-964027859159")
 	)
 	(label "3V3"
-		(at 236.22 240.03 0)
+		(at 224.79 243.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9705,7 +9524,7 @@
 		(uuid "ea533f8a-cf15-4d37-a31a-ff6eb1834153")
 	)
 	(label "GND"
-		(at 256.54 251.46 0)
+		(at 245.11 255.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9735,7 +9554,7 @@
 		(uuid "f4113f4f-6359-44e5-9192-f8d22ee7bd73")
 	)
 	(label "3V3"
-		(at 236.22 215.9 0)
+		(at 224.79 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9793,30 +9612,6 @@
 			(justify right bottom)
 		)
 		(uuid "fd8994e4-d6e6-4f09-9ba0-9dc66cf93247")
-	)
-	(global_label "GND"
-		(shape input)
-		(at 35.56 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "13cb2ab1-0146-4a2a-a90f-19146ddad2a5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.7043 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -10332,7 +10127,7 @@
 	)
 	(symbol
 		(lib_id "bonanzaDisplay:XC6206")
-		(at 252.73 215.9 0)
+		(at 241.3 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10343,7 +10138,7 @@
 		(fields_autoplaced yes)
 		(uuid "18f6c980-8778-4fa6-b129-b071a239d26c")
 		(property "Reference" "U2"
-			(at 252.73 209.55 0)
+			(at 241.3 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10353,7 +10148,7 @@
 			)
 		)
 		(property "Value" "XC6206P302MR"
-			(at 252.73 212.09 0)
+			(at 241.3 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10363,7 +10158,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 253.746 235.966 0)
+			(at 242.316 239.776 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10374,7 +10169,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5014/XC6206P362PR.pdf"
-			(at 255.27 238.252 0)
+			(at 243.84 242.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10385,7 +10180,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 215.9 0)
+			(at 241.3 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10396,7 +10191,7 @@
 			)
 		)
 		(property "PARTNO" "XC6206P302MR"
-			(at 252.73 215.9 0)
+			(at 241.3 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10407,7 +10202,7 @@
 			)
 		)
 		(property "DK" "4518-XC6206P302MRCT-ND"
-			(at 252.73 215.9 0)
+			(at 241.3 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10418,7 +10213,7 @@
 			)
 		)
 		(property "LCSC" "C9972"
-			(at 323.85 190.5 0)
+			(at 312.42 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10429,7 +10224,7 @@
 			)
 		)
 		(property "ME" ""
-			(at 252.73 215.9 0)
+			(at 241.3 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11973,7 +11768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:GT-TC029B-H025-L1N")
+		(lib_id "bonanzaDisplay:GT-TC029B-H025-L1N")
 		(at 130.81 121.92 0)
 		(mirror y)
 		(unit 1)
@@ -12099,7 +11894,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 267.97 245.11 0)
+		(at 256.54 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12109,7 +11904,7 @@
 		(dnp no)
 		(uuid "4f0e5ec7-5329-4499-bbf7-4450f97d89a3")
 		(property "Reference" "C40"
-			(at 268.478 243.078 0)
+			(at 257.048 246.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12120,7 +11915,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 268.478 247.142 0)
+			(at 257.048 250.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12131,7 +11926,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 267.97 245.11 0)
+			(at 256.54 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12142,7 +11937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 245.11 0)
+			(at 256.54 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12153,7 +11948,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 267.97 245.11 0)
+			(at 256.54 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12164,7 +11959,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 267.97 245.11 0)
+			(at 256.54 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12175,7 +11970,7 @@
 			)
 		)
 		(property "Voltage" "5.6V"
-			(at 272.034 245.11 0)
+			(at 260.604 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12185,7 +11980,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 267.97 245.11 0)
+			(at 256.54 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12196,7 +11991,7 @@
 			)
 		)
 		(property "ME" ""
-			(at 267.97 245.11 0)
+			(at 256.54 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12207,7 +12002,7 @@
 			)
 		)
 		(property "PARTNO" ""
-			(at 267.97 245.11 0)
+			(at 256.54 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12644,7 +12439,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13109,8 +12904,7 @@
 		)
 	)
 	(symbol
-		(lib_name "GT-TC029B-H025-L1N_1")
-		(lib_id "bitaxe:GT-TC029B-H025-L1N")
+		(lib_id "bonanzaDisplay:GT-TC029B-H025-L1N")
 		(at 130.81 109.22 0)
 		(mirror y)
 		(unit 1)
@@ -14057,7 +13851,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 35.56 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14819,7 +14613,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 267.97 220.98 0)
+		(at 256.54 224.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14829,7 +14623,7 @@
 		(dnp no)
 		(uuid "7d6fd2da-d0a4-4158-892b-481367ed503a")
 		(property "Reference" "C38"
-			(at 268.478 218.948 0)
+			(at 257.048 222.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14840,7 +14634,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 268.478 223.012 0)
+			(at 257.048 226.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14851,7 +14645,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 267.97 220.98 0)
+			(at 256.54 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14862,7 +14656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 220.98 0)
+			(at 256.54 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14873,7 +14667,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 267.97 220.98 0)
+			(at 256.54 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14884,7 +14678,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 267.97 220.98 0)
+			(at 256.54 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14895,7 +14689,7 @@
 			)
 		)
 		(property "Voltage" "6V"
-			(at 271.018 220.98 0)
+			(at 259.588 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14905,7 +14699,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 267.97 220.98 0)
+			(at 256.54 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14916,7 +14710,7 @@
 			)
 		)
 		(property "ME" ""
-			(at 267.97 220.98 0)
+			(at 256.54 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14927,7 +14721,7 @@
 			)
 		)
 		(property "PARTNO" ""
-			(at 267.97 220.98 0)
+			(at 256.54 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15217,104 +15011,6 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 73.66 226.06 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8104cbef-cf70-4769-be1c-a7e30003c8d0")
-		(property "Reference" "H1"
-			(at 76.2 224.7899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 76.2 227.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 73.66 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 73.66 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 73.66 226.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ME" ""
-			(at 73.66 226.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "bonanzaDisplay"
-				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -15812,106 +15508,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 73.66 233.68 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c5f38d9-8b6c-48a9-962f-9aed47aa73d9")
-		(property "Reference" "H2"
-			(at 76.2 232.4099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 76.2 234.9499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 73.66 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 73.66 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 73.66 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ME" ""
-			(at 73.66 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "bonanzaDisplay"
-				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TYPE-C-31-M-12_1")
-		(lib_id "bitaxe:TYPE-C-31-M-12")
+		(lib_id "bonanzaDisplay:TYPE-C-31-M-12")
 		(at 317.5 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -16387,7 +15984,7 @@
 	)
 	(symbol
 		(lib_id "bonanzaDisplay:XC6206")
-		(at 252.73 240.03 0)
+		(at 241.3 243.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16398,7 +15995,7 @@
 		(fields_autoplaced yes)
 		(uuid "a83a6288-34de-41b8-bbac-820519cbbb68")
 		(property "Reference" "U3"
-			(at 252.73 233.68 0)
+			(at 241.3 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16408,7 +16005,7 @@
 			)
 		)
 		(property "Value" "XC6206P282MR"
-			(at 252.73 236.22 0)
+			(at 241.3 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16418,7 +16015,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 253.746 260.096 0)
+			(at 242.316 263.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16429,7 +16026,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5014/XC6206P362PR.pdf"
-			(at 255.27 262.382 0)
+			(at 243.84 266.192 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16440,7 +16037,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 240.03 0)
+			(at 241.3 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16451,7 +16048,7 @@
 			)
 		)
 		(property "PARTNO" "XC6206P282MR"
-			(at 252.73 240.03 0)
+			(at 241.3 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16462,7 +16059,7 @@
 			)
 		)
 		(property "DK" "4518-XC6206P282MRCT-ND"
-			(at 252.73 240.03 0)
+			(at 241.3 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16473,7 +16070,7 @@
 			)
 		)
 		(property "LCSC" "C347374"
-			(at 252.73 240.03 0)
+			(at 241.3 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16484,7 +16081,7 @@
 			)
 		)
 		(property "ME" ""
-			(at 252.73 240.03 0)
+			(at 241.3 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16740,104 +16337,6 @@
 			(project "bonanzaDisplay"
 				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 73.66 248.92 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1377f49-016f-4925-8f04-f8a2a78e7834")
-		(property "Reference" "H4"
-			(at 76.2 247.6499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 76.2 250.1899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 73.66 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 73.66 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 73.66 248.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ME" ""
-			(at 73.66 248.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "bonanzaDisplay"
-				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -17330,7 +16829,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 267.97 215.9 270)
+		(at 256.54 219.71 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -17341,7 +16840,7 @@
 		(dnp no)
 		(uuid "bbbf7ec1-5a7a-4732-81ba-9e6d3aea6c9e")
 		(property "Reference" "TP15"
-			(at 272.288 215.9 90)
+			(at 260.858 219.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17352,7 +16851,7 @@
 			)
 		)
 		(property "Value" "3V0"
-			(at 272.288 213.614 90)
+			(at 260.858 217.424 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17363,7 +16862,7 @@
 			)
 		)
 		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
-			(at 267.97 210.82 0)
+			(at 256.54 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17374,7 +16873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 210.82 0)
+			(at 256.54 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17385,7 +16884,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 267.97 215.9 0)
+			(at 256.54 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17396,7 +16895,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 267.97 215.9 0)
+			(at 256.54 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17406,7 +16905,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 267.97 215.9 90)
+			(at 256.54 219.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17417,7 +16916,7 @@
 			)
 		)
 		(property "ME" ""
-			(at 267.97 215.9 90)
+			(at 256.54 219.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18184,7 +17683,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 114.3 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -18277,7 +17776,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 236.22 245.11 0)
+		(at 224.79 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18287,7 +17786,7 @@
 		(dnp no)
 		(uuid "cf33882a-0838-48b6-bfb7-8e1eda475564")
 		(property "Reference" "C39"
-			(at 236.728 243.078 0)
+			(at 225.298 246.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18298,7 +17797,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 236.728 247.142 0)
+			(at 225.298 250.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18309,7 +17808,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 236.22 245.11 0)
+			(at 224.79 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18320,7 +17819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 245.11 0)
+			(at 224.79 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18331,7 +17830,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 236.22 245.11 0)
+			(at 224.79 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18342,7 +17841,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 236.22 245.11 0)
+			(at 224.79 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18353,7 +17852,7 @@
 			)
 		)
 		(property "Voltage" "6.6V"
-			(at 240.284 245.11 0)
+			(at 228.854 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18363,7 +17862,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 236.22 245.11 0)
+			(at 224.79 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18374,7 +17873,7 @@
 			)
 		)
 		(property "ME" ""
-			(at 236.22 245.11 0)
+			(at 224.79 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18385,7 +17884,7 @@
 			)
 		)
 		(property "PARTNO" ""
-			(at 236.22 245.11 0)
+			(at 224.79 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18510,7 +18009,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 267.97 240.03 270)
+		(at 256.54 243.84 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -18521,7 +18020,7 @@
 		(dnp no)
 		(uuid "d0bee801-d86a-4967-9aca-be024bf2e2be")
 		(property "Reference" "TP16"
-			(at 272.288 240.03 90)
+			(at 260.858 243.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18532,7 +18031,7 @@
 			)
 		)
 		(property "Value" "2V8"
-			(at 272.288 237.744 90)
+			(at 260.858 241.554 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18543,7 +18042,7 @@
 			)
 		)
 		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
-			(at 267.97 234.95 0)
+			(at 256.54 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18554,7 +18053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 234.95 0)
+			(at 256.54 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18565,7 +18064,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 267.97 240.03 0)
+			(at 256.54 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18576,7 +18075,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 267.97 240.03 0)
+			(at 256.54 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18586,7 +18085,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 267.97 240.03 90)
+			(at 256.54 243.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18597,7 +18096,7 @@
 			)
 		)
 		(property "ME" ""
-			(at 267.97 240.03 90)
+			(at 256.54 243.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18989,104 +18488,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 73.66 241.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0886e51-c4fa-4f0a-88e0-873e74a00784")
-		(property "Reference" "H3"
-			(at 76.2 240.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 76.2 242.5699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 73.66 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 73.66 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 73.66 241.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ME" ""
-			(at 73.66 241.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "bonanzaDisplay"
-				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 90.17 39.37 90)
 		(unit 1)
@@ -19223,7 +18624,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 267.97 251.46 270)
+		(at 256.54 255.27 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -19234,7 +18635,7 @@
 		(dnp no)
 		(uuid "f0661c18-617d-4247-a9a7-f25514ef8fbd")
 		(property "Reference" "TP18"
-			(at 272.288 251.46 90)
+			(at 260.858 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19245,7 +18646,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 272.288 249.174 90)
+			(at 260.858 252.984 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19256,7 +18657,7 @@
 			)
 		)
 		(property "Footprint" "bonanzaDisplay:TestPoint_Pad_D1.0mm"
-			(at 267.97 246.38 0)
+			(at 256.54 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19267,7 +18668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 246.38 0)
+			(at 256.54 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19278,7 +18679,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 267.97 251.46 0)
+			(at 256.54 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19289,7 +18690,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 267.97 251.46 0)
+			(at 256.54 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19299,7 +18700,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 267.97 251.46 90)
+			(at 256.54 255.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19310,7 +18711,7 @@
 			)
 		)
 		(property "ME" ""
-			(at 267.97 251.46 90)
+			(at 256.54 255.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

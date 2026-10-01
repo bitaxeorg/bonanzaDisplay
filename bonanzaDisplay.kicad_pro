@@ -78,11 +78,7 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|132434240|140000000|d5f55f03-570a-4f26-aaba-8ec7599bf153|ce86da86-a872-4c4e-a7c9-fc1c63df2ab9",
-          ""
-        ],
-        [
-          "silk_edge_clearance|143634277|140000000|d5f55f03-570a-4f26-aaba-8ec7599bf153|ab2cc6d2-64a7-49b2-a80c-17eb7e98ab4c",
+          "invalid_outline|152548500|126817000|24234883-09c6-4916-aa09-8d98ec315966|cdc2d3e3-361d-4cd4-ac18-2c3638ce34d7",
           ""
         ]
       ],
@@ -383,20 +379,6 @@
         0,
         0,
         0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -405,13 +387,27 @@
         2
       ],
       [
-        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
         1,
         1,
         1,
         1,
         0,
-        1,
+        0,
+        0,
         1,
         1,
         1,
@@ -585,7 +581,7 @@
       "netlist": "",
       "plot": "Manufacturing Files/gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "bonanzaDisplay.step",
       "vrml": ""
     },
     "page_layout_descr_file": "kicad-embed://bitaxe.kicad_wks"
@@ -723,6 +719,30 @@
           "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "partnum",
+          "name": "partnum",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Origin",
+          "name": "FT Origin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
           "show": false
         }
       ],
