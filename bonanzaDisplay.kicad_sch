@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "bonanzaDisplay")
-		(date "2026-05-05")
-		(rev "v2")
+		(date "2026-10-01")
+		(rev "v3")
 		(company "bitaxeorg")
 		(comment 1 "OHL v2")
 	)
@@ -2154,7 +2154,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bonanzaDisplay:FPC-SMD_10P-P1.0_FGS-XJ-H2.0"
+		(symbol "bonanzaDisplay:FPC-SMD_12P-P1.0_FGS-XJ-H2.0"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2165,29 +2165,27 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J5"
-				(at 2.54 0.0001 0)
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "FPC-SMD_10P-P1.0_FGS-XJ-H2.0"
-				(at 2.54 -2.5399 0)
+			(property "Value" "Conn_01x10"
+				(at 0.254 -20.574 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "bonanzaDisplay:FPC-SMD_10P-P1.0_FGS-XJ-H2.0"
-				(at 0 0 0)
+			(property "Footprint" "bonanzaDisplay:FPC-SMD_12P-P1.0_FGS-XJ-H2.0"
+				(at 0 -23.622 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2198,7 +2196,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/datasheet/C262756.pdf"
-				(at 0 0 0)
+				(at 0 -23.622 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2219,8 +2217,8 @@
 					)
 				)
 			)
-			(property "PARTNO" "AFA01-S10FCA-00"
-				(at 0 0 0)
+			(property "PARTNO" "AFA01-S12FCA-00"
+				(at 0 -23.622 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2241,8 +2239,8 @@
 					)
 				)
 			)
-			(property "Height" ""
-				(at 0 0 0)
+			(property "LCSC" "C262757"
+				(at 0.508 -25.654 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2252,7 +2250,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C262756"
+			(property "ME" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2285,10 +2283,10 @@
 					)
 				)
 			)
-			(symbol "FPC-SMD_10P-P1.0_FGS-XJ-H2.0_1_1"
+			(symbol "FPC-SMD_12P-P1.0_FGS-XJ-H2.0_1_1"
 				(rectangle
 					(start -1.27 11.43)
-					(end 1.27 -13.97)
+					(end 1.27 -19.05)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2399,6 +2397,28 @@
 				(rectangle
 					(start -1.27 -12.573)
 					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -17.653)
+					(end 0 -17.907)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2588,9 +2608,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 8.89 180)
-					(length 2.54)
-					(name ""
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2606,7 +2626,25 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 -11.43 180)
+					(at -5.08 -17.78 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 8.89 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2615,7 +2653,25 @@
 							)
 						)
 					)
-					(number "12"
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -16.51 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6516,6 +6572,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 134.62) (xy 57.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166f438b-0379-4bc2-b186-2637e7621336")
+	)
+	(wire
+		(pts
 			(xy 104.14 46.99) (xy 101.6 46.99)
 		)
 		(stroke
@@ -7323,6 +7389,16 @@
 			(type default)
 		)
 		(uuid "6ec79922-48e6-4d10-81f1-f7244f329f88")
+	)
+	(wire
+		(pts
+			(xy 71.12 137.16) (xy 57.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f962c21-a1bc-4c96-bb1a-14d91b430afc")
 	)
 	(wire
 		(pts
@@ -8934,6 +9010,16 @@
 		)
 		(uuid "07cae85c-5148-405f-bf2c-bc717078ea87")
 	)
+	(label "SWD-DISP"
+		(at 71.12 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0889b650-149e-412b-b8b1-f43e69eae154")
+	)
 	(label "GND"
 		(at 256.54 227.33 0)
 		(effects
@@ -9094,6 +9180,16 @@
 		)
 		(uuid "3090cbc8-a926-4d92-852f-fe58bfd3c1fe")
 	)
+	(label "DISP_TX"
+		(at 71.12 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3095db31-36f8-459e-b3c4-013168aa6163")
+	)
 	(label "SW_CCW"
 		(at 134.62 224.79 0)
 		(effects
@@ -9144,16 +9240,6 @@
 		)
 		(uuid "43e1a495-5ff4-4384-9076-3d8c260941a4")
 	)
-	(label "DISP_SDA"
-		(at 247.65 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4512ad33-aef1-441b-b8bf-f11956bff9ae")
-	)
 	(label "GND"
 		(at 71.12 116.84 180)
 		(effects
@@ -9193,6 +9279,16 @@
 			(justify left bottom)
 		)
 		(uuid "4995cd64-6f2e-4967-9812-15634fb26544")
+	)
+	(label "DISP_RX"
+		(at 71.12 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4de1d218-d8d0-42ba-87ac-e12e825bdf61")
 	)
 	(label "3V0"
 		(at 267.97 215.9 180)
@@ -9324,15 +9420,25 @@
 		)
 		(uuid "69a346d1-921d-4a6a-b04c-6295f1fd20db")
 	)
-	(label "DISP_SCL"
-		(at 71.12 127 180)
+	(label "DISP_RX"
+		(at 247.65 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6e457a29-c67d-40a9-b653-abcb7de17b6c")
+		(uuid "69c7b95a-51fa-4f17-92b1-6497f481d9fb")
+	)
+	(label "DISP_TX"
+		(at 247.65 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a6061e3-0391-4f67-be20-1de8b9299046")
 	)
 	(label "GND"
 		(at 251.46 69.85 180)
@@ -9604,6 +9710,16 @@
 		)
 		(uuid "b9d2982b-36cf-4443-9f11-1da1ec7fe598")
 	)
+	(label "SWCLK"
+		(at 71.12 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb31dc51-1392-4e01-a3d8-550d1919de61")
+	)
 	(label "E{slash}RD"
 		(at 320.04 170.18 0)
 		(effects
@@ -9684,16 +9800,6 @@
 		)
 		(uuid "cf1b7179-efe3-4b59-b180-6491cfeff40b")
 	)
-	(label "DISP_SCL"
-		(at 247.65 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d331f9fd-5a23-44e1-b713-7abe5662f9b0")
-	)
 	(label "D1"
 		(at 320.04 165.1 0)
 		(effects
@@ -9773,16 +9879,6 @@
 			(justify left bottom)
 		)
 		(uuid "ea9abd32-3fef-42b3-bdce-47a2646fb148")
-	)
-	(label "DISP_SDA"
-		(at 71.12 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb59bdcd-6761-46c9-8543-5453d6ba6426")
 	)
 	(label "DISP_GPIO2"
 		(at 247.65 152.4 180)
@@ -12334,7 +12430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SCL"
+		(property "Value" "TX"
 			(at 251.968 149.606 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15414,7 +15510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "RX"
 			(at 263.398 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17469,7 +17565,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bonanzaDisplay:FPC-SMD_10P-P1.0_FGS-XJ-H2.0")
+		(lib_id "bonanzaDisplay:FPC-SMD_12P-P1.0_FGS-XJ-H2.0")
 		(at 52.07 119.38 0)
 		(mirror y)
 		(unit 1)
@@ -17481,7 +17577,7 @@
 		(dnp no)
 		(uuid "bfcd3439-78c1-4acb-bb9e-2d1455643522")
 		(property "Reference" "J5"
-			(at 52.07 134.874 0)
+			(at 52.07 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17491,7 +17587,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 51.816 136.652 0)
+			(at 51.816 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17500,8 +17596,8 @@
 				)
 			)
 		)
-		(property "Footprint" "bonanzaDisplay:FPC-SMD_10P-P1.0_FGS-XJ-H2.0"
-			(at 52.07 119.38 0)
+		(property "Footprint" "bonanzaDisplay:FPC-SMD_12P-P1.00_FGS-XJ-H2.0"
+			(at 52.07 143.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17512,7 +17608,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C262756.pdf"
-			(at 52.07 119.38 0)
+			(at 52.07 143.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17533,8 +17629,8 @@
 				)
 			)
 		)
-		(property "PARTNO" "AFA01-S10FCA-00"
-			(at 52.07 119.38 0)
+		(property "PARTNO" "AFA01-S12FCA-00"
+			(at 52.07 143.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17555,8 +17651,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C262756"
-			(at 52.07 119.38 0)
+		(property "LCSC" "C262757"
+			(at 51.562 145.034 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17612,6 +17708,12 @@
 		)
 		(pin "11"
 			(uuid "4459a704-69e0-4f6b-b754-7723cf0ff734")
+		)
+		(pin "13"
+			(uuid "fac0af12-5962-47a5-b727-e6af53fa8984")
+		)
+		(pin "14"
+			(uuid "869e266b-d440-445d-afb0-bb2a3d1bea14")
 		)
 		(instances
 			(project "bonanzaDisplay"
