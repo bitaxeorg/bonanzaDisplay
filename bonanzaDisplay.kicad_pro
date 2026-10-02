@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "invalid_outline|152548500|126817000|24234883-09c6-4916-aa09-8d98ec315966|cdc2d3e3-361d-4cd4-ac18-2c3638ce34d7",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -581,7 +576,7 @@
       "netlist": "",
       "plot": "Manufacturing Files/${TITLE}-${REVISION}-gerbers/",
       "specctra_dsn": "",
-      "step": "bonanzaDisplay.step",
+      "step": "Manufacturing Files/bonanzaDisplay.step",
       "vrml": ""
     },
     "page_layout_descr_file": "kicad-embed://bitaxe.kicad_wks"
