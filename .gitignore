@@ -39,3 +39,11 @@ fp-info-cache
 Manufacturing Files
 
 .vscode/
+
+# Backplane workspace metadata and per-file companion metadata
+.backplane/
+.backplane.json
+*.backplane.json
+
+# Local design-review outputs and backups
+/review/
