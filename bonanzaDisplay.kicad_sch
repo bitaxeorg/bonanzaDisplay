@@ -9539,7 +9539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf"
 			(at 140.97 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9561,7 +9561,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Abracon "
+		(property "Manufacturer" "Abracon LLC"
 			(at 140.97 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9572,7 +9572,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C9002"
+		(property "LCSC" "C20625731"
 			(at 74.93 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -12851,7 +12851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "15pF"
 			(at 129.54 159.258 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12873,7 +12873,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG150J500NT_C1548.pdf"
 			(at 135.89 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12895,7 +12895,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 135.89 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12906,7 +12906,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C32949"
+		(property "LCSC" "C1548"
 			(at 135.89 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12928,7 +12928,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402CG150J500NT"
 			(at 135.89 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -12953,7 +12953,34 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "C0G"
+			(at 135.89 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 135.89 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 135.89 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 317.5 223.52 90)
@@ -16016,7 +16043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "15pF"
 			(at 129.794 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16038,7 +16065,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG150J500NT_C1548.pdf"
 			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16060,7 +16087,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16071,7 +16098,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C32949"
+		(property "LCSC" "C1548"
 			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16093,7 +16120,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402CG150J500NT"
 			(at 135.89 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -16118,7 +16145,34 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "C0G"
+			(at 135.89 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 135.89 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 135.89 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "bonanzaDisplay:FPC-SMD_12P-P1.0_FGS-XJ-H2.0")
 		(at 52.07 119.38 0)
