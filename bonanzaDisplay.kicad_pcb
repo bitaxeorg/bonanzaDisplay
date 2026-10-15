@@ -2799,7 +2799,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -2836,7 +2836,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "RC0402FR-0730K9L"
+		(property "PARTNO" "0402WGF3092TCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2864,7 +2864,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2892,7 +2892,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C185428"
+		(property "LCSC" "C270615"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")

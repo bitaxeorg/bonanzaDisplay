@@ -17496,7 +17496,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf"
 			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17518,7 +17518,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-0730K9L"
+		(property "PARTNO" "0402WGF3092TCE"
 			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17540,7 +17540,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17551,7 +17551,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C185428"
+		(property "LCSC" "C270615"
 			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)
