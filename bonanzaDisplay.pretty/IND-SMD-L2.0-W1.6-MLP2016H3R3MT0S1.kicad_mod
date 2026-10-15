@@ -49,17 +49,7 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_rect
-		(start -1 -0.8)
-		(end 1 0.8)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "5a4c8159-f42c-434c-a577-8be1284b08ce")
-	)
+	(fp_line (start -0.5 1.04) (end 0.5 1.04) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
 	(fp_rect
 		(start -1.392 -0.932)
 		(end 1.372 0.942)
@@ -82,6 +72,7 @@
 			)
 		)
 	)
+	(fp_rect (start -1 -0.8) (end 1 0.8) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab"))
 	(pad "1" smd rect
 		(at -0.9 0)
 		(size 0.8 1.6)

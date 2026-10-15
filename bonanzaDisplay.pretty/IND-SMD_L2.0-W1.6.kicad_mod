@@ -49,17 +49,8 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_rect
-		(start -1 -0.8)
-		(end 1 0.8)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "ea989009-de04-4ce9-9be7-fb5aa616c3a3")
-	)
+	(fp_line (start -0.5 -1.1) (end 0.5 -1.1) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -0.5 1.1) (end 0.5 1.1) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
 	(fp_rect
 		(start -1.473 -1.001)
 		(end 1.483 1.03)
@@ -82,6 +73,7 @@
 		(layer "F.Fab")
 		(uuid "7e26aec3-7071-4f3c-9742-311393d1700b")
 	)
+	(fp_rect (start -1 -0.8) (end 1 0.8) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab"))
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")

@@ -3364,18 +3364,7 @@
 				)
 			)
 		)
-		(symbol "OLED-3.12-SSD1322_1_1"
-			(rectangle
-				(start -1.27 37.465)
-				(end 17.78 -40.005)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
+		(symbol "OLED-3.12-SSD1322_0_0"
 			(pin passive line
 				(at -5.08 35.56 0)
 				(length 3.81)
@@ -3916,7 +3905,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 20.32 -38.1 180)
 				(length 2.54)
 				(name "TAB"
@@ -3934,7 +3923,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 20.32 -38.1 180)
 				(length 2.54)
 				(hide yes)
@@ -3951,6 +3940,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "OLED-3.12-SSD1322_1_1"
+			(rectangle
+				(start -1.27 37.465)
+				(end 17.78 -40.005)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -5255,21 +5257,8 @@
 				)
 			)
 		)
-		(symbol "SIQ-02FVS3_C41430892_0_1"
-			(rectangle
-				(start -7.62 5.715)
-				(end 7.62 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "SIQ-02FVS3_C41430892_1_1"
-			(pin unspecified line
+		(symbol "SIQ-02FVS3_C41430892_0_0"
+			(pin passive line
 				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "PAD"
@@ -5287,7 +5276,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 3.81 180)
 				(length 2.54)
 				(hide yes)
@@ -5306,7 +5295,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -5.08 90)
 				(length 2.54)
 				(name "CCW"
@@ -5324,7 +5313,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -2.54 -5.08 90)
 				(length 2.54)
 				(name "CW"
@@ -5342,7 +5331,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 2.54 -5.08 90)
 				(length 2.54)
 				(name "COM"
@@ -5360,7 +5349,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 -5.08 90)
 				(length 2.54)
 				(name "SW"
@@ -5376,6 +5365,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "SIQ-02FVS3_C41430892_0_1"
+			(rectangle
+				(start -7.62 5.715)
+				(end 7.62 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -5451,19 +5453,8 @@
 				)
 			)
 		)
-		(symbol "TPS62933DRLR_0_1"
-			(rectangle
-				(start -7.62 7.62)
-				(end 5.08 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
+		(symbol "TPS62933DRLR_0_0"
+			(pin input line
 				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "RT"
@@ -5481,7 +5472,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "EN"
@@ -5499,7 +5490,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "VIN"
@@ -5517,7 +5508,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "GND"
@@ -5535,7 +5526,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "SW"
@@ -5553,7 +5544,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 7.62 5.08 180)
 				(length 2.54)
 				(name "BST"
@@ -5571,7 +5562,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
 				(name "SS"
@@ -5589,7 +5580,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 7.62 0 180)
 				(length 2.54)
 				(name "FB"
@@ -5605,6 +5596,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "TPS62933DRLR_0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -6198,237 +6202,8 @@
 				)
 			)
 		)
-		(symbol "TYPE-C-31-M-12_0_1"
-			(rectangle
-				(start -6.35 19.558)
-				(end 8.89 -18.288)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 -16.51 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A1B12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 17.78 0)
-				(length 2.54)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A4B9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 11.43 0)
-				(length 2.54)
-				(name "CC1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 6.35 0)
-				(length 2.54)
-				(name "DP1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "DN1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 -6.35 0)
-				(length 2.54)
-				(name "SBU1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 -13.97 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B1A12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 15.24 0)
-				(length 2.54)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B4A9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 8.89 0)
-				(length 2.54)
-				(name "CC2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 3.81 0)
-				(length 2.54)
-				(name "DP2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 -2.54 0)
-				(length 2.54)
-				(name "DN2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 -8.89 0)
-				(length 2.54)
-				(name "SBU2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TYPE-C-31-M-12_1_1"
-			(pin unspecified line
+		(symbol "TYPE-C-31-M-12_0_0"
+			(pin passive line
 				(at 11.43 -13.97 180)
 				(length 2.54)
 				(name "SHIELD"
@@ -6446,7 +6221,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 11.43 -13.97 180)
 				(length 2.54)
 				(hide yes)
@@ -6465,7 +6240,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 11.43 -13.97 180)
 				(length 2.54)
 				(hide yes)
@@ -6484,7 +6259,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 11.43 -13.97 180)
 				(length 2.54)
 				(hide yes)
@@ -6501,6 +6276,235 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -16.51 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1B12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 17.78 0)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 11.43 0)
+				(length 2.54)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 6.35 0)
+				(length 2.54)
+				(name "DP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "DN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -6.35 0)
+				(length 2.54)
+				(name "SBU1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -13.97 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 15.24 0)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 8.89 0)
+				(length 2.54)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 3.81 0)
+				(length 2.54)
+				(name "DP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "DN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -8.89 0)
+				(length 2.54)
+				(name "SBU2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TYPE-C-31-M-12_0_1"
+			(rectangle
+				(start -6.35 19.558)
+				(end 8.89 -18.288)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)

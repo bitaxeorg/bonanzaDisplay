@@ -2582,18 +2582,7 @@
 					)
 				)
 			)
-			(symbol "OLED-3.12-SSD1322_1_1"
-				(rectangle
-					(start -1.27 37.465)
-					(end 17.78 -40.005)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "OLED-3.12-SSD1322_0_0"
 				(pin passive line
 					(at -5.08 35.56 0)
 					(length 3.81)
@@ -3134,7 +3123,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 20.32 -38.1 180)
 					(length 2.54)
 					(name "TAB"
@@ -3152,7 +3141,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 20.32 -38.1 180)
 					(length 2.54)
 					(hide yes)
@@ -3169,6 +3158,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "OLED-3.12-SSD1322_1_1"
+				(rectangle
+					(start -1.27 37.465)
+					(end 17.78 -40.005)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -4473,21 +4475,8 @@
 					)
 				)
 			)
-			(symbol "SIQ-02FVS3_C41430892_0_1"
-				(rectangle
-					(start -7.62 5.715)
-					(end 7.62 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SIQ-02FVS3_C41430892_1_1"
-				(pin unspecified line
+			(symbol "SIQ-02FVS3_C41430892_0_0"
+				(pin passive line
 					(at 10.16 3.81 180)
 					(length 2.54)
 					(name "PAD"
@@ -4505,7 +4494,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 3.81 180)
 					(length 2.54)
 					(hide yes)
@@ -4524,7 +4513,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -5.08 90)
 					(length 2.54)
 					(name "CCW"
@@ -4542,7 +4531,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -2.54 -5.08 90)
 					(length 2.54)
 					(name "CW"
@@ -4560,7 +4549,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "COM"
@@ -4578,7 +4567,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 -5.08 90)
 					(length 2.54)
 					(name "SW"
@@ -4594,6 +4583,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "SIQ-02FVS3_C41430892_0_1"
+				(rectangle
+					(start -7.62 5.715)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -4669,19 +4671,8 @@
 					)
 				)
 			)
-			(symbol "TPS62933DRLR_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
+			(symbol "TPS62933DRLR_0_0"
+				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "RT"
@@ -4699,7 +4690,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "EN"
@@ -4717,7 +4708,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "VIN"
@@ -4735,7 +4726,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -4753,7 +4744,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "SW"
@@ -4771,7 +4762,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 5.08 180)
 					(length 2.54)
 					(name "BST"
@@ -4789,7 +4780,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -10.16 0 0)
 					(length 2.54)
 					(name "SS"
@@ -4807,7 +4798,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "FB"
@@ -4823,6 +4814,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "TPS62933DRLR_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -4920,237 +4924,8 @@
 					)
 				)
 			)
-			(symbol "TYPE-C-31-M-12_0_1"
-				(rectangle
-					(start -6.35 19.558)
-					(end 8.89 -18.288)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -16.51 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 17.78 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 11.43 0)
-					(length 2.54)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 6.35 0)
-					(length 2.54)
-					(name "DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "DN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -13.97 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 15.24 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 8.89 0)
-					(length 2.54)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 3.81 0)
-					(length 2.54)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -8.89 0)
-					(length 2.54)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TYPE-C-31-M-12_1_1"
-				(pin unspecified line
+			(symbol "TYPE-C-31-M-12_0_0"
+				(pin passive line
 					(at 11.43 -13.97 180)
 					(length 2.54)
 					(name "SHIELD"
@@ -5168,7 +4943,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -13.97 180)
 					(length 2.54)
 					(hide yes)
@@ -5187,7 +4962,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -13.97 180)
 					(length 2.54)
 					(hide yes)
@@ -5206,7 +4981,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -13.97 180)
 					(length 2.54)
 					(hide yes)
@@ -5223,6 +4998,235 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -16.51 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 17.78 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 11.43 0)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 6.35 0)
+					(length 2.54)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -6.35 0)
+					(length 2.54)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -13.97 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 15.24 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 8.89 0)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -8.89 0)
+					(length 2.54)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TYPE-C-31-M-12_0_1"
+				(rectangle
+					(start -6.35 19.558)
+					(end 8.89 -18.288)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -5376,6 +5380,126 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 1.27)
+						(xy -1.016 1.905)
+						(xy 0 2.54)
+						(xy 1.016 1.905)
+						(xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -5669,6 +5793,31 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f95c5dd8-29aa-4236-ad88-5aec3b0b6b54")
+	)
+	(junction
+		(at 52.07 44.45)
+		(diameter 0)
+		(uuid "30327a54-6d22-4c67-b41e-dcf207414091")
+	)
+	(junction
+		(at 52.07 62.23)
+		(diameter 0)
+		(uuid "1cfc7549-0ba3-4615-95a0-b7adbb0015f2")
+	)
+	(junction
+		(at 109.22 46.99)
+		(diameter 0)
+		(uuid "b6f1982e-b5fd-414c-9548-5f95b09eaac4")
+	)
+	(junction
+		(at 137.16 90.17)
+		(diameter 0)
+		(uuid "30881cfe-5fe4-43a3-aa14-d7f154d59c5b")
+	)
+	(junction
+		(at 165.1 82.55)
+		(diameter 0)
+		(uuid "f0e090ce-33f6-4e7f-a6d1-178f29a30470")
 	)
 	(no_connect
 		(at 331.47 187.96)
@@ -8601,6 +8750,41 @@
 			(xy 172.72 121.92)
 		)
 		(uuid "aae59499-f36a-466a-9b6a-800020877230")
+	)
+	(wire
+		(pts
+			(xy 52.07 39.37)
+			(xy 52.07 44.45)
+		)
+		(uuid "e6a37a5b-f71c-4bcc-b577-31944e12b9d6")
+	)
+	(wire
+		(pts
+			(xy 52.07 67.31)
+			(xy 52.07 62.23)
+		)
+		(uuid "c026447d-3a0d-4d29-b2e9-b2073b84912c")
+	)
+	(wire
+		(pts
+			(xy 109.22 41.91)
+			(xy 109.22 46.99)
+		)
+		(uuid "5ad553b0-786a-4fb2-b72f-778f2fb2ed7d")
+	)
+	(wire
+		(pts
+			(xy 137.16 87.63)
+			(xy 137.16 90.17)
+		)
+		(uuid "08bbdd91-a77f-4da1-9a8a-1fc94e130582")
+	)
+	(wire
+		(pts
+			(xy 165.1 77.47)
+			(xy 165.1 82.55)
+		)
+		(uuid "bcf1ee59-b020-472d-a85d-b54b3351f5c8")
 	)
 	(text "Place close to RP2040"
 		(at 231.902 80.772 0)
@@ -18743,15 +18927,6 @@
 				)
 			)
 		)
-		(instances
-			(project "bonanzaDisplay"
-				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "Supplier" "LCSC"
 			(at 154.94 121.92 0)
 			(hide yes)
@@ -18760,7 +18935,321 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 52.07 39.37 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f55166b0-4b2a-4d2d-8242-087eb4dfb198")
+		(property "Reference" "#FLG01"
+			(at 52.07 37.465 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 39.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 39.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 52.07 39.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 52.07 67.31 180)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6ccf427-04d6-4be1-8edf-71bae72d407a")
+		(property "Reference" "#FLG02"
+			(at 52.07 69.215 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 52.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 52.07 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 109.22 41.91 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27206002-d020-4768-9f9a-360d1720d120")
+		(property "Reference" "#FLG03"
+			(at 109.22 40.005 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 109.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 41.91 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 41.91 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 109.22 41.91 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 137.16 87.63 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b1fe7a9-55e7-4815-b975-68908a5857f4")
+		(property "Reference" "#FLG04"
+			(at 137.16 85.725 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 137.16 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 165.1 77.47 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f303aac1-5784-42d1-9552-a6d38ddd06e1")
+		(property "Reference" "#FLG05"
+			(at 165.1 75.565 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 165.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 165.1 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bonanzaDisplay"
+				(path "/7e582155-2c81-495e-af6e-58d19d09acab"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(circle
 		(center 139.7 93.345)
 		(radius 0.635)
