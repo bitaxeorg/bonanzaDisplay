@@ -83,12 +83,17 @@ polarity, cable entrances, and component alignment in the supplier preview.
 SW3 has SMD electrical contacts and NPTH mechanical holes but is marked as a
 through-hole footprint; an SMD-only placement export would incorrectly omit it.
 
-Some source manufacturer/MPN fields still need reconciliation with the
-selected LCSC parts; see
-[issue #13](https://github.com/bitaxeorg/bonanzaDisplay/issues/13).
-Resolve conflicting metadata and verify the exact supplier selection before
-ordering. Stock snapshots and local placement checks do not establish
-order-time availability or supplier model alignment.
+Source Manufacturer, PARTNO and MPN fields have been reconciled with the
+selected LCSC parts. Capacitor Voltage fields now show actual selected-part
+ratings, with displaced design targets retained in hidden
+`Previous voltage requirement` fields. See the
+[selected-part ratings review](part-ratings.md) for effective-capacitance and
+inductor qualification items that still need attention.
+
+[Issue #13](https://github.com/bitaxeorg/bonanzaDisplay/issues/13) remains open
+for final BOM/CPL and supplier-preview reconciliation. Verify exact supplier
+selections before ordering. Stock snapshots and local placement checks do not
+establish order-time availability or supplier model alignment.
 
 The final supplier preview and hardware/firmware validation remain tracked in
 [issue #17](https://github.com/bitaxeorg/bonanzaDisplay/issues/17).

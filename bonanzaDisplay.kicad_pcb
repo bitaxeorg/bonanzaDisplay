@@ -1093,6 +1093,28 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "TYPE-C-31-M-12"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "edb99d99-9e11-4541-9eb8-7c473dcc1480")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e18a6a26-53cd-4415-896a-c04dd3393557")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/8cec9cf8-6f51-4e62-9924-a0d7cb0a6e20")
 		(sheetname "/")
 		(sheetfile "bonanzaDisplay.kicad_sch")
@@ -1492,6 +1514,28 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "1N4148WT"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3bfe502-5a8a-4d61-963f-c44961622f73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d7b6c1de-67ec-4db5-9d51-2be7fe98ae4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
@@ -2100,6 +2144,39 @@
 				(justify mirror)
 			)
 		)
+		(property "Power" "62.5mW"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a21d6c29-51d4-44f6-96b3-a1738ea97ff6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d94c05a-83aa-487f-ab84-6983f6fae75c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90c88758-8d92-4666-8d4a-5fb40fa6c381")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bd6cfe21-4201-4397-bdf4-4f646d4140ef")
 		(sheetname "/")
@@ -2290,6 +2367,28 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "FTC201612S1R5MBCA"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3d15d149-5446-437e-b708-af46c2edcd4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "cjiang (Changjiang Microelectronics Tech)"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "157cc0bc-879e-458d-94df-a6565c234262")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
@@ -2539,6 +2638,28 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "1N4148WT"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "778c194d-238f-4f6f-8df2-0f7b7c7b1f13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "968de622-8f3c-459d-8ab0-77ba6765c365")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
@@ -2864,7 +2985,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2918,6 +3039,50 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "0402WGF3092TCE"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5b780d55-4137-4137-a3ff-da29999d535c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d10fd698-305a-490b-9814-d079ec201e2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b31823ce-e7bf-4666-a03e-ce5adb3e867e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "00cffdda-868d-4576-a272-bc635dba15d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -3099,7 +3264,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3113,7 +3278,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3141,7 +3306,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "24V"
+		(property "Voltage" "25V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3183,7 +3348,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL21A106KAYNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3195,6 +3360,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6331c283-f8e2-4dd7-bf8f-9bfe2d4cb411")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "24V"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90f8f3fd-c4fb-4cc8-bdac-96f49dc2bbd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a013db8-9310-4e9d-ae5f-f6dc59792912")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -3376,7 +3574,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R60J475ME87D"
+		(property "MPN" "CL05A475MP5NRNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3390,7 +3588,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3418,7 +3616,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "6V"
+		(property "Voltage" "10V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3460,7 +3658,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL05A475KP5NRNC"
+		(property "PARTNO" "CL05A475MP5NRNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3472,6 +3670,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a2f73f67-2d77-45e0-b55d-6ee2f0b0ecd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6V"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "505cb0a2-f715-4173-8358-f03ecf1e38bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bfb4c159-a7d1-438a-bcee-6c8478006e42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -3824,7 +4055,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3838,7 +4069,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3866,7 +4097,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "24V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3920,6 +4151,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eaeaf8aa-6d32-485c-a33a-cd2117cbb6b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "24V"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "671ef952-fe15-475e-9f7c-c3ddc8b44681")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7a6b437b-dd0d-4ab8-b862-606718ee1168")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -4101,7 +4365,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R71C104KA88J"
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4143,7 +4407,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4197,6 +4461,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "147642c0-776b-4e31-afd5-663a98aab801")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf9a3f8e-431b-49fa-a175-867ff64a075c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "083bc707-bdf6-4280-bc52-746b342c71b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -4391,7 +4688,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -4404,7 +4701,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "±1%"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -4441,6 +4738,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "70ec4ca8-0feb-4435-99bc-bb0e98673f80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -4616,7 +4924,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R71C104KA88J"
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4658,7 +4966,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4712,6 +5020,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ccb770c2-4226-4df2-943f-ac4bff842784")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "caca32d0-c594-42e7-b657-0a013e5c06b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a95812e9-24a6-4026-b69e-0135928bff35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -4919,6 +5260,28 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "AFC07-S30ECA-00"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e350edda-0724-4b14-bc5a-fe065f842bbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JUSHUO"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e2c1db09-a6b0-4236-924a-a8ca45d9a242")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
@@ -5672,6 +6035,28 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "AFA01-S12FCA-00"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4f9e5dc2-032d-450c-a022-27225c851485")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JUSHUO"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a23776ff-b7ac-4a26-9b13-5399dcaec43a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
@@ -6492,7 +6877,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "590k"
+		(property "Value" "750k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "95b0745f-18fb-43d3-97cb-0cd298fa9cd7")
@@ -6504,7 +6889,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -6555,7 +6940,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF7503TCE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6569,7 +6954,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6597,7 +6982,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C477764"
+		(property "LCSC" "C122545"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6625,7 +7010,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "RC0402FR-07590KL"
+		(property "PARTNO" "0402WGF7503TCE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6637,6 +7022,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "373ce4dd-f773-456b-b370-54b1caa94584")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ebd6a196-041c-419b-a8b3-5e452bc11240")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9e795d49-a3f1-4d0a-b337-ee4174ca10dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -7308,7 +7726,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R71C104KA88J"
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7350,7 +7768,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7404,6 +7822,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5f75dbc1-3f39-4ac1-96d1-0546af30a567")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f95794bc-db1a-4aba-bf82-16880d810d11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4b4f30b4-333c-4f47-a6ec-299035a3a042")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -7585,7 +8036,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7599,7 +8050,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7627,7 +8078,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7681,6 +8132,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6efed327-4658-4e40-8298-4e4ee03022ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "25V"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9a58ce74-771f-43f2-9afa-919e4f3ea469")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d3e937e6-b0d9-4c7b-a282-fedde1b3f34e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -7862,7 +8346,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R71C104KA88J"
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7904,7 +8388,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "2.2V"
+		(property "Voltage" "50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7958,6 +8442,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cbf0d054-6270-4f2f-b869-8eed11535dbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "2.2V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f48cccb5-57fc-409d-8c82-517a8c842229")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b3823d2f-bacb-4240-b720-dc0c28664dc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -8379,7 +8896,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -8418,7 +8935,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "±1%"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -8806,7 +9323,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402WGF5101TCE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8846,6 +9363,61 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "0402WGF5101TCE"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5f7a7cca-b23b-4f41-970a-e04b2f0949cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "30c162fb-d896-457d-a713-b6d7cb03b53b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "75021d1c-6377-43de-8fad-7900ef06fe58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e221aec1-2054-41a9-b7dc-18433f3c2f2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "32826550-3836-45e4-8a3c-cedda1f1855f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -9027,7 +9599,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R71C104KA88J"
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9069,7 +9641,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "2.2V"
+		(property "Voltage" "50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9123,6 +9695,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "01015fc7-4bde-436d-9b55-74a08615772f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "2.2V"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "876588d7-1f5a-458d-b5bb-9da0dc6a26b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0f0223ad-4274-4841-a282-575e9c51726f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -9595,7 +10200,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9649,6 +10254,50 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ffc63047-1254-4f1b-a7a6-a40bf295df25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0402KRX7R9BB333"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1e35a109-f789-43f6-bea3-f1ae97134bf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "933a65bc-eeed-4d23-9197-08ad4df8d310")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "366e715d-21a0-43d1-8cc5-550cdadc18e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -9830,7 +10479,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402WGF5101TCE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9870,6 +10519,61 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "0402WGF5101TCE"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3294743d-a300-47f9-a0d7-2e57ada9e2b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "85373fee-5b88-4b28-b803-108bbd47a0df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57ed9745-8d94-451e-8e5f-7da1647f9a3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17f1d887-d53d-4833-b253-09f422ee8f27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "55d701ad-c7ed-482f-9d90-e9fdfda509f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -10289,6 +10993,28 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "SIQ-02FVS3"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17298339-0f36-4ebe-84e6-e3bb471767b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HanElectricity"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "372c85ce-330e-45c3-a661-f8c1ec9076c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/b5da5be0-1db9-4d6a-94a5-590fc9fd352e")
@@ -10863,6 +11589,17 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CL31B475KBHNNNE"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7fc230f7-6259-4bfb-b588-d8f0148789f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/19a00b21-074e-424c-a1c5-30dcc5a3df4e")
 		(sheetname "/")
@@ -11042,7 +11779,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R71C104KA88J"
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11084,7 +11821,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11138,6 +11875,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ceb35d79-5df8-4112-aab0-87d2a731a79c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "05cd4fbc-ff11-4887-9b0d-e2f76a3b1cee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a689ca70-657a-4f8e-90af-b24bf784812a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -11344,6 +12114,28 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9c5e0843-c053-4a64-950b-8d2ab044fa2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57654302-307c-4a01-867b-03b4b0eae905")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/6d8801d9-1431-4a77-8874-560a29a67259")
@@ -11562,7 +12354,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R71C104KA88J"
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11604,7 +12396,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11658,6 +12450,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e3eb690-9211-4796-b0d6-cb6a24f0cff0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bfd4447e-177b-4469-a888-e9a5708ce53a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0da67457-ad11-4ffd-85b2-fb135ff4efcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -11853,7 +12678,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11907,6 +12732,50 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "RC0402FR-0713K7L"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d75e56a1-6621-4aee-82e0-fbf53750df24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7e3858d6-bc0a-48e5-a563-6c67ac8925bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "169cf7e5-66a4-4067-85dc-2e7b41fd1df1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed45807c-4da3-4620-93a2-879a1733f08a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -12088,7 +12957,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0751RL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12102,7 +12971,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12170,6 +13039,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "51c1b182-4d08-4a44-a86e-df63463c0c87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "200d35f2-11a2-4b6e-8b9e-a8ce19ee203e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3453df11-f91b-4dfe-a4b8-925822eeb9f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -12337,7 +13239,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402WGF1002TCE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12365,7 +13267,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12419,6 +13321,50 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3d00f2a-1fc4-45b0-8fd5-2cc39bc9be18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fe8f5934-90fd-437b-b5cb-adbfc2fa7afc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "423baef7-50e4-41dc-add1-a15bcd6e020d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9404db20-f4fa-4055-bcc1-454e773c0665")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -12600,7 +13546,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R71C104KA88J"
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12642,7 +13588,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12696,6 +13642,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1b1a1f4b-df02-4e2b-a5c1-4c8e95f4873e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8f1be50e-6abd-4953-b913-513794c87d73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d682b2a-ad2c-4937-aebe-abb9b9a6f923")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -13179,7 +14158,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13193,7 +14172,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13249,7 +14228,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL05A105KA5NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13261,6 +14240,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "086c658f-08da-44d2-a2a1-8f5401a8e8b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d28ca45-c0b3-459d-9f38-157e3f2043ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c125ccf3-9b94-4907-97d4-2108eee1a82c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -13455,7 +14467,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -13468,7 +14480,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "±1%"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -13505,6 +14517,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b6a476a9-6172-45a3-888f-7c7b378d26d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -13719,6 +14742,28 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "TPS62933DRLR"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f7dd3926-8eec-46b4-815f-7d56d25772e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "192fd041-6bb8-4111-af18-77213d254890")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/666d16f7-af1d-4dea-ade4-9b6b7805e678")
@@ -14054,6 +15099,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0819bf19-9cc3-4cee-9f2b-4b10a8a494fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "38b76a69-29e1-4160-96d5-b02e94221e16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7317005a-ee25-4522-ba51-6c01addce42e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -14406,7 +15484,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R60J475ME87D"
+		(property "MPN" "CL05A475MP5NRNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14420,7 +15498,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14448,7 +15526,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "10V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14490,7 +15568,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL05A475KP5NRNC"
+		(property "PARTNO" "CL05A475MP5NRNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14502,6 +15580,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ac332cec-f245-41d2-92ff-83d4864bf257")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "674b0fab-9312-464b-a018-0ef8e1b767da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a89311fc-b89a-4163-b3a3-a8c8156181f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -14854,7 +15965,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R71C104KA88J"
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14896,7 +16007,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14950,6 +16061,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "db3c8a9e-1b18-4ba6-aa0b-b47e159de6f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f70bba0d-a5ba-4079-9476-808ca28def11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c65148bc-dc54-431f-9901-3ffdba002fe4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -15117,7 +16261,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "MSASL219LB5226MTNA01"
+		(property "PARTNO" "CL21A226MAQNNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15145,7 +16289,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15173,7 +16317,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15213,6 +16357,50 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "386b1ac4-c6cb-4c93-9cf5-36116b955c10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A226MAQNNNE"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7fa613ac-09cc-42ae-a799-d519de9c0588")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "10V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eb58458f-e840-400b-8eaf-1e7505b8a2de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e0d2d242-071d-4284-b445-3fe2af9b3c3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -15478,6 +16666,39 @@
 				(justify mirror)
 			)
 		)
+		(property "Power" "62.5mW"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "79f48e6d-db01-4200-a0a4-8a103e406f38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b5f7dde2-ec92-451e-9912-486a7eab8e69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "313e9525-d03f-4f35-b268-f254df82e753")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2b14c1a5-5408-4c36-b778-59ec57fd7222")
 		(sheetname "/")
@@ -15642,7 +16863,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16128,6 +17349,28 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "86875ab9-974f-465c-b4d4-13e86fd4a9c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "48d0d420-e63c-4703-bb57-b40dfd4969b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/44d71ecf-8765-4e00-b259-246bcdf2476b")
 		(sheetname "/")
 		(sheetfile "bonanzaDisplay.kicad_sch")
@@ -16344,7 +17587,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R60J475ME87D"
+		(property "MPN" "CL05A475MP5NRNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16358,7 +17601,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16386,7 +17629,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "2.2V"
+		(property "Voltage" "10V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16428,7 +17671,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL05A475KP5NRNC"
+		(property "PARTNO" "CL05A475MP5NRNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16440,6 +17683,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be6a358f-91a6-4bdc-b390-ba6efe63f705")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "2.2V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c3c76d85-c1e6-412a-a874-cca841c69f5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef32acdc-d212-44c4-aeed-cd9acab958fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -16621,7 +17897,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R71C104KA88J"
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16663,7 +17939,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16717,6 +17993,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39484eae-e2e4-438a-a829-58f267294ac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "10V"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "51e0afa5-c1ed-4132-a0a8-d2b8f35b150c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b0fcda7d-a334-4463-90ec-c1210f1467fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -16898,7 +18207,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "0402WGF1002TCE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16912,7 +18221,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16968,7 +18277,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402WGF1002TCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16980,6 +18289,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6b41fa0b-0985-4691-897a-2e24818ce3bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "458f7bbf-bf98-402a-aa5c-51e1502b959f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2410555a-201c-4894-957f-c8cfde47e2f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -17161,7 +18503,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R60J475ME87D"
+		(property "MPN" "CL05A475MP5NRNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17175,7 +18517,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17203,7 +18545,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "2.2V"
+		(property "Voltage" "10V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17245,7 +18587,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL05A475KP5NRNC"
+		(property "PARTNO" "CL05A475MP5NRNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17257,6 +18599,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e136a4c8-f30b-4054-97ff-9c529b2ebeeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "2.2V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "81ebe42b-d50f-4f04-b3c7-a2c42c03b21b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88e9e4c8-9fac-42fe-8e9d-1a6ef9fdc17f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -17492,6 +18867,28 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "RP2354A"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bb2a0e54-a2e0-4c51-a632-73412a0c8a6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3754aef7-8de0-4509-90fa-cec7d7746289")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "*QFN*7x7mm?P0.4mm?EP3.4x3.4mm*")
@@ -18603,7 +20000,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "GRM155R60J475ME87D"
+		(property "MPN" "CL05A475MP5NRNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18617,7 +20014,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18645,7 +20042,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "2.2V"
+		(property "Voltage" "10V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18687,7 +20084,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL05A475KP5NRNC"
+		(property "PARTNO" "CL05A475MP5NRNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18699,6 +20096,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "65d52c5f-ec84-4b00-a2c1-6f9f1ab1cc18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "2.2V"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2741b289-56b5-40fc-8f0a-bd2f72074d53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8a2182ad-ccbb-4d4e-98a8-9e98f1ce9497")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -18880,7 +20310,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "RC0402FR-071KL"
+		(property "MPN" "0402WGF1001TCE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18894,7 +20324,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18950,7 +20380,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402WGF1001TCE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18962,6 +20392,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1f70d38-8d43-40d8-bd05-140fd9222083")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e4d641e2-2962-44f6-9b61-1fe79afd451b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "739ed3fa-d61d-4d2f-a658-7607fd57e544")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -19143,7 +20606,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19157,7 +20620,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19185,7 +20648,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "6V"
+		(property "Voltage" "50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19239,6 +20702,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7580b314-945c-4c1e-a123-743568071f88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6V"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e640dc6c-0035-4d8c-8de1-f5195e999b44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ca3eb3c0-f6ed-4234-bdc4-a74e726574a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -19690,7 +21186,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19703,7 +21199,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "±1%"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19740,6 +21236,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0580216d-b2ee-4117-b7c2-b69a0879211c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -19901,7 +21408,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL21A106KAYNNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19929,7 +21436,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19997,6 +21504,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1d6c7213-a325-4eeb-b15e-9663a4065c59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b5eeceea-0ed2-42c5-aca8-e2c5957ab663")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a50f9456-ceb8-41ab-9fcb-e837313d2492")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")

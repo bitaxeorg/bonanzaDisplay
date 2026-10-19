@@ -234,8 +234,10 @@ KiCad 10.0.6 checks passed with no ERC findings, DRC violations, unconnected
 items, or schematic/PCB parity findings. These checks do not establish
 assembled-board operation or approve a production order. Remaining work includes:
 
-- Resolving the remaining source BOM metadata discrepancies and checking
-  supplier part matches and placement corrections
+- Resolving the effective-capacitance and inductor qualification findings in
+  the [selected-part ratings review](docs/part-ratings.md).
+- Checking final supplier part matches and placement corrections after the
+  source BOM metadata reconciliation
   ([#13](https://github.com/bitaxeorg/bonanzaDisplay/issues/13)).
 - Confirming filled/capped vias and the supplier's final stencil/CAM treatment
   ([#12](https://github.com/bitaxeorg/bonanzaDisplay/issues/12)).

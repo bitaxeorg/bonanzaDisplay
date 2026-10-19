@@ -9965,7 +9965,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "ABM8-272-T3"
+			(at 140.97 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 231.14 63.5 0)
@@ -10043,7 +10052,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 234.95 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10100,7 +10109,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 231.14 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 231.14 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 231.14 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 231.14 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 308.61 149.86 0)
@@ -10257,7 +10302,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "CL31B475KBHNNNE"
+			(at 308.61 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 304.8 205.74 0)
@@ -10324,7 +10378,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 304.8 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -10335,7 +10389,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6V"
+		(property "Voltage" "50V"
 			(at 307.848 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10392,7 +10446,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 304.8 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 304.8 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6V"
+			(at 304.8 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 304.8 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 44.45 236.22 0)
@@ -10557,7 +10647,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 290.83 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10568,7 +10658,7 @@
 				)
 			)
 		)
-		(property "Voltage" "24V"
+		(property "Voltage" "25V"
 			(at 294.386 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10600,7 +10690,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL21A106KAYNNNE"
 			(at 290.83 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10625,7 +10715,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X5R"
+			(at 290.83 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 290.83 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "24V"
+			(at 290.83 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 290.83 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 177.8 226.06 0)
@@ -10714,7 +10840,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 177.8 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -10725,7 +10851,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "±1%"
 			(at 177.8 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -10772,7 +10898,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402WGF4701TCE"
+			(at 177.8 226.06 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 154.94 157.48 270)
@@ -10837,7 +10972,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 154.94 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10870,7 +11005,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402WGF1001TCE"
 			(at 154.94 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -10895,7 +11030,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402WGF1001TCE"
+			(at 154.94 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 154.94 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 154.94 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 154.94 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 114.3 62.23 270)
@@ -11161,7 +11332,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 123.19 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11172,7 +11343,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "10V"
 			(at 127 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11204,7 +11375,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL05A475KP5NRNC"
+		(property "PARTNO" "CL05A475MP5NRNC"
 			(at 123.19 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11229,7 +11400,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X5R"
+			(at 123.19 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 123.19 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 123.19 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 123.19 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 153.67 82.55 270)
@@ -11352,7 +11559,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "RC0402FR-0727RL"
+			(at 153.67 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 153.67 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 153.67 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 153.67 82.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 137.16 87.63 0)
@@ -11518,7 +11761,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11565,7 +11808,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "RC0402FR-0713K7L"
+			(at 63.5 57.15 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 63.5 57.15 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 63.5 57.15 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 63.5 57.15 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 154.94 109.22 270)
@@ -11632,7 +11911,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 154.94 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11665,7 +11944,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402WGF1002TCE"
 			(at 154.94 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -11690,7 +11969,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402WGF1002TCE"
+			(at 154.94 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 154.94 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 154.94 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 154.94 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 132.08 95.25 0)
@@ -11757,7 +12072,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11768,7 +12083,7 @@
 				)
 			)
 		)
-		(property "Voltage" "2.2V"
+		(property "Voltage" "10V"
 			(at 135.89 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11800,7 +12115,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL05A475KP5NRNC"
+		(property "PARTNO" "CL05A475MP5NRNC"
 			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11825,7 +12140,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X5R"
+			(at 132.08 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 132.08 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "2.2V"
+			(at 132.08 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 132.08 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 300.99 76.2 90)
@@ -11901,7 +12252,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402WGF5101TCE"
 			(at 300.99 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11948,7 +12299,52 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402WGF5101TCE"
+			(at 300.99 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 300.99 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 300.99 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 300.99 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 300.99 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "bonanzaDisplay:GT-TC029B-H025-L1N")
 		(at 130.81 121.92 0)
@@ -12073,7 +12469,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "TS-1088-AR02016"
+			(at 130.81 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 130.81 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 247.65 147.32 270)
@@ -12361,7 +12775,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402WGF1002TCE"
 			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12383,7 +12797,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12430,7 +12844,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402WGF1002TCE"
+			(at 104.14 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 104.14 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 104.14 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 104.14 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 58.42 54.61 180)
@@ -12519,7 +12969,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 58.42 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -12566,7 +13016,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0402KRX7R9BB333"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 259.08 149.86 270)
@@ -12817,7 +13303,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "TPS62933DRLR"
+			(at 78.74 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 78.74 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 299.72 68.58 90)
@@ -13085,7 +13589,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "TS-1088-AR02016"
+			(at 130.81 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 130.81 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:L")
 		(at 140.97 95.25 0)
@@ -13153,7 +13675,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "Manufacturer" "TDK"
 			(at 140.97 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13211,7 +13733,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "MLP2016H3R3MT0S1"
+			(at 140.97 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 134.62 224.79 90)
@@ -13469,7 +14000,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "1N4148WT"
+			(at 309.88 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 309.88 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 135.89 157.48 270)
@@ -13627,7 +14176,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402CG150J500NT"
+			(at 135.89 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 317.5 223.52 90)
@@ -13693,7 +14251,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 317.5 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -13751,7 +14309,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "RC0402FR-0751RL"
+			(at 317.5 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 317.5 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 317.5 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 317.5 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 269.24 63.5 0)
@@ -13829,7 +14423,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 273.05 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13886,7 +14480,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 269.24 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 269.24 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 269.24 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 269.24 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 35.56 52.07 180)
@@ -13953,7 +14583,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL21A106KAYNNNE"
 			(at 35.56 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -13975,7 +14605,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 35.56 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -14032,7 +14662,34 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X5R"
+			(at 35.56 52.07 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 35.56 52.07 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 35.56 52.07 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 240.03 86.36 270)
@@ -14155,7 +14812,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "RC0402FR-0727RL"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "bonanzaDisplay:RP2354A")
 		(at 203.2 127 0)
@@ -14468,7 +15161,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "RP2354A"
+			(at 203.2 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 203.2 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 323.85 190.5 270)
@@ -14490,7 +15201,7 @@
 				)
 			)
 		)
-		(property "Value" "590k"
+		(property "Value" "750k"
 			(at 327.66 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14511,7 +15222,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf"
 			(at 323.85 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14533,7 +15244,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 323.85 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14544,7 +15255,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C477764"
+		(property "LCSC" "C122545"
 			(at 323.85 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14566,7 +15277,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-07590KL"
+		(property "PARTNO" "0402WGF7503TCE"
 			(at 323.85 190.5 90)
 			(hide yes)
 			(show_name no)
@@ -14591,7 +15302,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402WGF7503TCE"
+			(at 323.85 190.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 323.85 190.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 323.85 190.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 323.85 190.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 247.65 152.4 270)
@@ -14779,7 +15526,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 227.33 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14836,7 +15583,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 223.52 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 223.52 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 223.52 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 223.52 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 254 63.5 0)
@@ -14914,7 +15697,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 257.81 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14971,7 +15754,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 254 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 254 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 254 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 254 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 172.72 63.5 0)
@@ -15038,7 +15857,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 172.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15049,7 +15868,7 @@
 				)
 			)
 		)
-		(property "Voltage" "2.2V"
+		(property "Voltage" "10V"
 			(at 176.784 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15081,7 +15900,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL05A475KP5NRNC"
+		(property "PARTNO" "CL05A475MP5NRNC"
 			(at 172.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15106,7 +15925,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X5R"
+			(at 172.72 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 172.72 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "2.2V"
+			(at 172.72 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 172.72 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 259.08 144.78 270)
@@ -15283,7 +16138,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 299.72 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15294,7 +16149,7 @@
 				)
 			)
 		)
-		(property "Voltage" "24V"
+		(property "Voltage" "50V"
 			(at 303.53 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15351,7 +16206,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 299.72 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 299.72 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "24V"
+			(at 299.72 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 299.72 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 198.12 226.06 0)
@@ -15440,7 +16331,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 198.12 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -15451,7 +16342,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "±1%"
 			(at 198.12 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -15498,7 +16389,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402WGF4701TCE"
+			(at 198.12 226.06 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "bonanzaDisplay:TYPE-C-31-M-12")
 		(at 317.5 85.09 0)
@@ -15653,7 +16553,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "TYPE-C-31-M-12"
+			(at 317.5 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 317.5 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 284.48 205.74 0)
@@ -15720,7 +16638,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 284.48 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15753,7 +16671,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL05A105KA5NQNC"
 			(at 284.48 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15778,7 +16696,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X5R"
+			(at 284.48 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A105KA5NQNC"
+			(at 284.48 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 284.48 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 284.48 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:L_Small")
 		(at 99.06 46.99 90)
@@ -15891,7 +16845,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "FTC201612S1R5MBCA"
+			(at 99.06 46.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "cjiang (Changjiang Microelectronics Tech)"
+			(at 99.06 46.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 76.2 111.76 0)
@@ -16138,7 +17110,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 160.02 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -16149,7 +17121,7 @@
 				)
 			)
 		)
-		(property "Voltage" "2.2V"
+		(property "Voltage" "10V"
 			(at 157.226 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16181,7 +17153,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL05A475KP5NRNC"
+		(property "PARTNO" "CL05A475MP5NRNC"
 			(at 160.02 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -16206,7 +17178,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X5R"
+			(at 160.02 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 160.02 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "2.2V"
+			(at 160.02 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 160.02 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "bonanzaDisplay:SIQ-02FVS3_C41430892")
 		(at 148.59 229.87 270)
@@ -16330,7 +17338,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "SIQ-02FVS3"
+			(at 148.59 229.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HanElectricity"
+			(at 148.59 229.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 52.07 67.31 180)
@@ -16496,7 +17522,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 218.44 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -16507,7 +17533,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "±1%"
 			(at 218.44 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -16554,7 +17580,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402WGF4701TCE"
+			(at 218.44 226.06 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 246.38 63.5 0)
@@ -16632,7 +17667,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 250.19 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16689,7 +17724,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 246.38 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 246.38 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 246.38 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 246.38 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 130.81 181.61 0)
@@ -17038,7 +18109,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "RC0402FR-0727RL"
+			(at 240.03 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 240.03 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 240.03 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 240.03 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 135.89 147.32 270)
@@ -17196,7 +18303,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402CG150J500NT"
+			(at 135.89 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "bonanzaDisplay:FPC-SMD_12P-P1.0_FGS-XJ-H2.0")
 		(at 52.07 119.38 0)
@@ -17356,7 +18472,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "AFA01-S12FCA-00"
+			(at 52.07 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JUSHUO"
+			(at 52.07 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 238.76 63.5 0)
@@ -17434,7 +18568,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 242.57 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17491,7 +18625,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 238.76 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 238.76 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 238.76 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 238.76 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:D_Filled")
 		(at 300.99 223.52 0)
@@ -17638,7 +18808,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "1N4148WT"
+			(at 300.99 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 300.99 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 114.3 54.61 180)
@@ -17705,7 +18893,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "MSASL219LB5226MTNA01"
+		(property "PARTNO" "CL21A226MAQNNNE"
 			(at 114.3 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -17727,7 +18915,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 114.3 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -17738,7 +18926,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 118.618 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17784,7 +18972,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X5R"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A226MAQNNNE"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "10V"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 44.45 242.57 0)
@@ -17960,7 +19184,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.6V"
+		(property "Voltage" "50V"
 			(at 265.43 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18017,7 +19241,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 261.62 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 261.62 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6.6V"
+			(at 261.62 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 261.62 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 104.14 50.8 180)
@@ -18106,7 +19366,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18153,7 +19413,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402WGF3092TCE"
+			(at 104.14 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 104.14 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 104.14 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 104.14 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 44.45 229.87 0)
@@ -18329,7 +19625,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "50V"
 			(at 90.17 42.164 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18386,7 +19682,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 90.17 39.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 90.17 39.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "10V"
+			(at 90.17 39.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 90.17 39.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 165.1 77.47 0)
@@ -18728,7 +20060,7 @@
 				)
 			)
 		)
-		(property "Voltage" "2.2V"
+		(property "Voltage" "50V"
 			(at 159.004 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18785,7 +20117,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 154.94 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 154.94 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "2.2V"
+			(at 154.94 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 154.94 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 154.94 121.92 270)
@@ -18874,7 +20242,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 154.94 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -18907,7 +20275,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "±1%"
 			(at 154.94 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -19021,7 +20389,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 293.37 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -19032,7 +20400,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6V"
+		(property "Voltage" "10V"
 			(at 296.418 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19064,7 +20432,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL05A475KP5NRNC"
+		(property "PARTNO" "CL05A475MP5NRNC"
 			(at 293.37 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -19089,7 +20457,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X5R"
+			(at 293.37 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 293.37 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "6V"
+			(at 293.37 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 293.37 205.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 163.83 63.5 0)
@@ -19167,7 +20571,7 @@
 				)
 			)
 		)
-		(property "Voltage" "2.2V"
+		(property "Voltage" "50V"
 			(at 167.64 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19224,7 +20628,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 163.83 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 163.83 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "2.2V"
+			(at 163.83 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 163.83 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "bonanzaDisplay:OLED-3.12-SSD1322")
 		(at 336.55 172.72 0)
@@ -19439,7 +20879,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "AFC07-S30ECA-00"
+			(at 336.55 172.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JUSHUO"
+			(at 336.55 172.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 44.45 52.07 0)
@@ -19506,7 +20964,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 44.45 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -19517,7 +20975,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 48.26 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19574,7 +21032,43 @@
 				)
 			)
 		)
-	)
+	
+		(property "Dielectric" "X7R"
+			(at 44.45 52.07 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 44.45 52.07 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Previous voltage requirement" "25V"
+			(at 44.45 52.07 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 44.45 52.07 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 300.99 73.66 90)
@@ -19650,7 +21144,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "0402WGF5101TCE"
 			(at 300.99 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -19697,7 +21191,52 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402WGF5101TCE"
+			(at 300.99 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 300.99 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 300.99 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 300.99 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 300.99 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(sheet_instances
 		(path "/"
 			(page "1")
