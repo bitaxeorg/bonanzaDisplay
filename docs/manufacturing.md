@@ -20,10 +20,19 @@ The project and `bonanzaDisplay.kicad_dru` enforce:
   plated slots: 0.35 mm minimum.
 - Silkscreen clearance: 0.15 mm; text height/stroke: 1.00/0.15 mm.
 
-Vias use 0.30 mm drills with 0.45 or 0.50 mm pads, or 0.25 mm drills
-with 0.45 mm pads. The latter combination avoids JLCPCB's published
-small-via surcharge; smaller pads with that drill do not. No microvias
-or blind/buried vias are required.
+All 162 vias use 0.30 mm drills: 58 have 0.45 mm pads and 104 have
+0.50 mm pads. The minimum drill constraint and routing presets exclude
+the former 0.25 mm option. Select **0.3mm/(0.4/0.45mm)** in JLCPCB's
+minimum via hole size/diameter quote option. Larger pads remain acceptable.
+No microvias or blind/buried vias are required.
+
+The user's 2026-10-19 quote added approximately $30 when selecting the
+0.25 mm option, despite the published capability table's allowance for
+0.25/0.45 mm vias. The design now meets the 0.30 mm quote option directly;
+the actual order configuration takes precedence over generic pricing guidance.
+Enlarging 19 holes required small via/trace adjustments to preserve the
+0.20 mm hole-to-copper clearance. The resulting board passed DRC and
+schematic/PCB parity, with no unconnected items.
 
 Limits were checked against [JLCPCB's capabilities](https://jlcpcb.com/capabilities/Capabilities)
 on 2026-10-14. The CAD stackup is nominal; confirm the standard fabrication
@@ -41,7 +50,7 @@ and [free POFV announcement](https://jlcpcb.com/news/free-via-in-pad-6-20-layer-
 The intended process uses epoxy fill with a copper cap, not a requirement
 for the separate copper-fill option. Tenting alone is not a substitute.
 
-The board's through vias have 0.25 or 0.30 mm drills. Apply the filling
+The board's through vias have 0.30 mm drills. Apply the filling
 process to those vias, including vias within solder pads; leave component
 insertion holes and mechanical holes open. Retain the component-pad
 solder-mask openings over capped vias.
